@@ -1,0 +1,52 @@
+- title: Introduction
+
+- title: Installation
+  pages:
+    - title: WordPress Theme Installer
+    - title: NPM
+    - title: Composer
+    - title: Bower
+    - title: Yarn
+
+- title: Getting started
+  pages:
+    - title: Theme Structure
+    - title: Child Theme
+    - title: Page Templates
+    - title: Customizer Options
+    - title: Menus
+    - title: Widgets & Widget Areas
+
+- title: Development
+  pages:
+    - title: Prerequisites
+    - title: Developing with npm and Gulp
+    - title: Working with Gulp-watch
+    - title: SCSS
+    - title: Available Gulp Tasks
+
+- title: Extend
+  pages:
+    - title: FontAwesome 4
+    - title: FontAwesome 5
+    - title: Custom Widget Areas / Sidebars
+    - title: Custom Menus and Menu Areas
+
+- title: How to update
+  pages:
+    - title: Parent theme
+    - title: Child theme
+
+- title: WooCommerce
+
+- title: Gutenberg
+
+- title: Translating UnderStrap
+
+- title: Changelog
+
+- title: About
+  pages:
+    - title: About UnderStrap
+    - title: License
+    - title: Credits

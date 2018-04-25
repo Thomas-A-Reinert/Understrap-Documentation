@@ -1,0 +1,81 @@
+# Dependencies
+markdown:       kramdown
+highlighter:    rouge
+
+kramdown:
+  auto_ids:     true
+
+# Permalinks
+permalink:      pretty
+
+# Server
+source:         "."
+destination:    ./_gh_pages
+host:           localhost
+port:           9001
+baseurl:        ""
+url:            "http://understrap.com/"
+encoding:       UTF-8
+exclude:
+  - .git/
+  - .github/
+  - assets/scss/
+  - build/
+  - js/
+  - node_modules/
+  - nuget/
+  - scss/
+  - vendor/
+  - CODE_OF_CONDUCT.md
+  - composer.json
+  - Gemfile
+  - Gemfile.lock
+  - package.js
+  - package.json
+  - package-lock.json
+  - README.md
+  - sache.json
+  - twbsconfig.yml
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-toc
+
+# Social
+title:              UnderStrap
+description:        "A WordPress theme framework based on Bootstrap4 and _s"
+twitter:            _understrap
+authors:            "Holger Könemann (Founder), GuerrillaCoder, Stef Kariotidis, Jason King, Johan Nielsen, Thomas A. Reinert, Alex Wright and UnderStrap contributors"
+social_image_path:  /assets/brand/bootstrap-social.png
+social_logo_path:   /assets/brand/bootstrap-social-logo.png
+
+# Custom variables
+current_version:      0.8.2
+current_ruby_version: 4.0.0
+docs_version:         0.8.2
+repo:                 "https://github.com/understrap/understrap"
+slack:                ""
+blog:                 ""
+expo:                 "https://github.com/understrap/understrap/issues/208"
+jobs:                 ""
+themes:               ""
+
+download:
+  source:           "https://github.com/understrap/understrap/archive/master.zip"
+  dist:             "https://wordpress.org/themes/understrap/"
+
+cdn:
+  # See https://www.srihash.org for info on how to generate the hashes
+  css:              "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  css_hash:         "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+  js:               "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  js_hash:          "sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  jquery:           "https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  jquery_hash:      "sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  popper:           "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  popper_hash:      "sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+
+toc:
+  min_level:        2
+  max_level:        4
