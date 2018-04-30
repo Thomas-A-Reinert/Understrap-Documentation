@@ -52,7 +52,7 @@ social_logo_path:   /assets/brand/bootstrap-social-logo.png
 
 # Custom variables
 current_version:      0.8.2
-current_ruby_version: 4.0.0
+current_ruby_version: 0.8.2
 docs_version:         0.8.2
 repo:                 "https://github.com/understrap/understrap"
 slack:                ""

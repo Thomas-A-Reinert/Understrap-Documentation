@@ -22,7 +22,7 @@ As you can see in the image above you can add custom classes (e.g. `fa fa-home`)
 
 {::options parse_block_html="true" /}
 <div class="bd-callout bd-callout-warning mt-5 mb-5">
-<i class="fa fa-question-circle-o" aria-hidden="true" style="font-size:5em; float:left; margin-right:.5em; color:rgba(255,0,0,.5);"></i>
+<span class="fa fa-question-circle-o" aria-hidden="true" style="font-size:5em; float:left; margin-right:.5em; color:rgba(255,0,0,.5);"><span>
 #### You cannot see a "_CSS Classes (optional)_" field?
 Check the upper right corner of that page and click `Screen Options` - toggle `CSS` on and your good to go.
 </div>

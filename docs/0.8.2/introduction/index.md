@@ -7,6 +7,7 @@ toc: true
 ---
 
 ## Starter Theme + HTML Framework == WordPress Theme Framework
+
 The [_s theme](https://underscores.me/){:target="_blank"} is a good starting point to develop a WordPress theme. But it is “just” a raw starter theme. That means it outputs all the WordPress stuff correctly but without any layout or design. Why not add a well known and supported layout framework to have a solid, clean and responsive foundation?
 
 That’s where Bootstrap comes in.
@@ -14,6 +15,7 @@ That’s where Bootstrap comes in.
 [View Official Demo](https://understrap.com/understrap/){:target="_blank" .btn .btn-outline-primary}
 
 ## Basic Features
+
 - Combines Underscore’s PHP/JS files and Bootstrap’s HTML / CSS / JS.
 - Comes with Bootstrap (v4) Sass source files and additional .scss files. Nicely sorted and ready to add your own variables and customize the Bootstrap variables.
 - Uses a single minified CSS file for all the basic stuff.
