@@ -14,7 +14,7 @@ destination:    ./_gh_pages
 host:           localhost
 port:           9001
 baseurl:        ""
-url:            "http://understrap.com/"
+url:            "https://usdocu.tarthemes.com"
 encoding:       UTF-8
 exclude:
   - .git/
