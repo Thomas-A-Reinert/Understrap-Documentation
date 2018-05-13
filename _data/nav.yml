@@ -19,11 +19,10 @@
 
 - title: Development
   pages:
-    - title: Prerequisites
     - title: Developing with npm and Gulp
     - title: Working with Gulp-watch
-    - title: SCSS
     - title: Available Gulp Tasks
+    - title: SCSS
 
 - title: Extend
   pages:

@@ -7,23 +7,29 @@ toc: true
 ---
 
 ## Preparations: Install node.js and Gulp
+
 At first you need node.js and Gulp installed on your computer globally. If you have already done this before - skip this section.<br>
 If not: You have to install npm (comes along with node.js) and Gulp before you can proceed.
 
-{% callout info %}
+{% capture callout %}
+  <span class="fa fa-exclamation-circle" aria-hidden="true" style="font-size:1.5em; float:left; margin-right:.5em;"></span>
   node.js, npm and Gulp are cross-platform, which means you can run them under Windows, MacOs and Linux!
-{% endcallout %}
-
+  <span class="clearfloat"></span>
+{% endcapture %}
+{% include callout.html content=callout type="info" %}
 
 To install node.js visit the [node.js](https://nodejs.org/en/download/){:target="_blank"} website for the latest installer for your OS. Download and install it like any other program.
 
-To install Gulp globally open up your terminal and enter:
+Gulp is a toolkit that helps you automate painful or time-consuming tasks in your development workflow. Platform-agnostic - Integrations are built into all major IDEs and people are using gulp with PHP, .NET, Node.js, Java, and other platforms.
+
+To install gulp globally, open up a terminal and execute
 {% highlight sh %}
   npm install --global gulp-cli
 {% endhighlight %}
 
 ## Installing Theme Dependencies
-Make sure you have installed Node.js your computer globally.
+
+Make sure you have installed Node.js on your computer globally.
 
 Then open your terminal and browse to the location of your UnderStrap copy.
 
@@ -32,9 +38,11 @@ Then open your terminal and browse to the location of your UnderStrap copy.
 {% endhighlight %}
 
 ## Theme Setup
-UnderStrap contains a configuration file called `gulpconfig.json` found in the theme root. To use BrowserSync to refresh the website on file change you will have to configure your proxy settings. By default the proxy is set to `localhost/wordpress/`, change this to sites URL.
+
+UnderStrap contains a configuration file called `gulpconfig.json` found in the theme root. To use BrowserSync to refresh the website on file change you will have to configure your proxy settings. By default the proxy is set to `localhost/wordpress/`, change this to your sites URL.
 
 ## Getting Started
+
 To get started developing on your new UnderStrap based theme, open a console and navigate to the UnderStrap theme folder. Then to start watching for file changes and browser refresh with BrowserSync execute:
 
 {% highlight sh %}

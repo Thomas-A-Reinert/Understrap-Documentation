@@ -1,14 +1,10 @@
 ---
 layout: docs
 title: WordPress Menus
-description: 
+description: UnderStrap supports only a primary menu with two levels, means just a single submenu level.
 group: getting-started
 toc: true
 ---
-
-### Primary Menu
-
-UnderStrap supports only a primary menu with two levels, means just a single submenu level.
 
 ### Adding Icons to the Menu
 
@@ -32,8 +28,6 @@ Check the upper right corner of that page and click `Screen Options` - toggle `C
 
 If you want to add social media icons for example but respect [WCAG 2.0 guidelines](https://www.w3.org/TR/WCAG20/){:target="_blank"} you´ll need to provide some assistive text for visually impaired users. But most problably you´ll not want to show it to non visually impaired users.
 
-
-
 <figure class="mb-5">
   <img src="{{ site.baseurl }}/assets/img/menu-icons-without-text.jpg" alt="" class="img-fluid">
 </figure>
@@ -49,3 +43,7 @@ This will render the following HTML:
 {%- endhighlight -%}
 
 As you can see the icon will get automatically hidden for visually impaired users by the `aria-hidden="true"` attribute while the text will get wrapped by a `<span class="sr-only">` which will only be "shown" to screenreaders.
+
+### Adding more Menus
+
+If you want to add more menus please see [Extend &raquo; Custom Menus and Menu Areas]({{ site.baseurl }}/docs/{{ site.docs_version }}/extend/custom-menus-and-menu-areas/).

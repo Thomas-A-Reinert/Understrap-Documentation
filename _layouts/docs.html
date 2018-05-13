@@ -4,11 +4,7 @@
     {% include header.html %}
   </head>
   <body>
-    <a id="skippy" class="sr-only sr-only-focusable" href="#content">
-      <div class="container">
-        <span class="skiplink-text">Skip to main content</span>
-      </div>
-    </a>
+    {% include skippy.html %}
 
     {% include docs-navbar.html %}
 
@@ -25,7 +21,7 @@
         {% endif %}
 
         <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
-          <h2 class="bd-title" id="content">{{ page.title | smartify }}</h2>
+          <h1 class="bd-title" id="content">{{ page.title | smartify }}</h1>
           <p class="bd-lead">{{ page.description | smartify }}</p>
           {{ content }}
         </main>
