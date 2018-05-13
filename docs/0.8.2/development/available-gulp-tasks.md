@@ -8,7 +8,7 @@ toc: true
 
 {% capture callout %}
 ### Make sure to have Gulp installed globally!
-[Please follow our Guide on how to install npm and Gulp]({{ site.baseurl }}/docs/{{ site.docs_version }}/development/developing-with-npm-and-gulp/) if you haven´t done so.
+Please follow our Guide on how to install npm and Gulp if you haven´t done so.
 {% endcapture %}
 {% include callout.html content=callout type="info" %}
 
