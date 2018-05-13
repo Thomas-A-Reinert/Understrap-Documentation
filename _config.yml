@@ -79,3 +79,5 @@ cdn:
 toc:
   min_level:        2
   max_level:        4
+
+theme: jekyll-theme-minimal
