@@ -3,4 +3,4 @@
 # Allow crawling of all content
 User-agent: *
 Disallow:
-Sitemap: https://usdocu.tarthemes.com/sitemap.xml
+Sitemap: http://localhost:4711/sitemap.xml
