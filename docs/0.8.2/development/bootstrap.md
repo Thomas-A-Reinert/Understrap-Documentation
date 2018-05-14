@@ -13,4 +13,4 @@ UnderStrap uses and supports all Bootstrap 4 classes with some additional classe
 
 ## Using Bootstrap Classes in UnderStrap
 
-For general development take a look at [Bootstraps´ Documentation](https://getbootstrap.com/docs/4.1/getting-started/introduction/){:target="_blank"}
+For general development take a look at [Bootstrap´s Documentation](https://getbootstrap.com/docs/4.1/getting-started/introduction/){:target="_blank"}

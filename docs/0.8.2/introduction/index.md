@@ -30,4 +30,4 @@ That’s where Bootstrap comes in.
 
 The [release on WordPress.org](https://wordpress.org/themes/understrap/){:target="_blank"} is the official stable version that is also available through WordPress built in theme installer.
 
-The [release on Github](https://github.com/understrap/understrap){:target="_blank"} is the current development or “cutting edge” version. You can also download it from there. But you should use it at your own risk. You are also cordially invited to fork it from there, participate in UnderStraps development or post any issue you may stumble upon.
+The [release on Github](https://github.com/understrap/understrap){:target="_blank"} is the current development or “cutting edge” version. You can also download it from there. But you should use it at your own risk. You are also cordially invited to fork it from there, participate in UnderStrap´s development or post any issue you may stumble upon.

@@ -16,11 +16,9 @@ UnderStrap inherits code from the following projects:
 
 ## Documentation
 
-UnderStrap uses [Bootstraps´ own documentation system](https://github.com/twbs/bootstrap){:target="_blank"} built on Jekyll to generate static pages.
+UnderStrap uses [Bootstrap´s own documentation system](https://github.com/twbs/bootstrap){:target="_blank"} built on Jekyll to generate static pages.
 
 ### The UnderStrap Documentation Team
 
-- Alex Wright [@axlright](https://github.com/axlright){:target="_blank"}
 - Johan Nielsen [@0dp](https://github.com/0dp){:target="_blank"}
 - Thomas A. Reinert [@Thomas-A-Reinert](https://github.com/Thomas-A-Reinert){:target="_blank"}
-- Zachary Elkins [@ZacharyElkins](https://github.com/ZacharyElkins){:target="_blank"}

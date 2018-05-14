@@ -8,7 +8,7 @@ toc: true
 
 ## Using SCSS with Gulp
 
-UnderStraps´ built in Workflow supports several [Gulp Tasks]({{ site.baseurl }}/docs/{{ site.docs_version }}/development/available-gulp-tasks/) to automatically build and optimize the CSS.
+UnderStrap´s built in Workflow supports several [Gulp Tasks]({{ site.baseurl }}/docs/{{ site.docs_version }}/development/available-gulp-tasks/) to automatically build and optimize the CSS.
 
 Feel free to use any SCSS Processor though.
 

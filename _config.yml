@@ -14,7 +14,7 @@ destination:    ./_gh_pages
 host:           localhost
 port:           4711
 baseurl:        ""
-url:            "./"
+url:            "https://usdocu.tarthemes.com"
 encoding:       UTF-8
 exclude:
   - .git/
