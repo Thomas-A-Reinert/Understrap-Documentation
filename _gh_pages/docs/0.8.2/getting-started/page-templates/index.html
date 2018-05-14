@@ -40,15 +40,15 @@
 <meta name="twitter:creator" content="@_understrap">
 <meta name="twitter:title" content="Page Templates">
 <meta name="twitter:description" content="A WordPress theme framework based on Bootstrap4 and _s">
-<meta name="twitter:image" content="http://localhost:4711/assets/brand/bootstrap-social-logo.png">
+<meta name="twitter:image" content=".//assets/brand/bootstrap-social-logo.png">
 
 <!-- Facebook -->
-<meta property="og:url" content="http://localhost:4711/docs/0.8.2/getting-started/page-templates/">
+<meta property="og:url" content=".//docs/0.8.2/getting-started/page-templates/">
 <meta property="og:title" content="Page Templates">
 <meta property="og:description" content="A WordPress theme framework based on Bootstrap4 and _s">
 <meta property="og:type" content="website">
-<meta property="og:image" content="http://localhost:4711/assets/brand/bootstrap-social.png">
-<meta property="og:image:secure_url" content="http://localhost:4711/assets/brand/bootstrap-social.png">
+<meta property="og:image" content=".//assets/brand/bootstrap-social.png">
+<meta property="og:image:secure_url" content=".//assets/brand/bootstrap-social.png">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -125,25 +125,16 @@
 
       <ul class="nav bd-sidenav"></ul>
     </div><div class="bd-toc-item">
-      <a class="bd-toc-link" href="/docs/0.8.2/installation/wordpress-theme-installer/">
+      <a class="bd-toc-link" href="/docs/0.8.2/installation/via-wordpress-theme-installer/">
         Installation
       </a>
 
       <ul class="nav bd-sidenav"><li>
-            <a href="/docs/0.8.2/installation/wordpress-theme-installer/">
-              WordPress Theme Installer
+            <a href="/docs/0.8.2/installation/via-wordpress-theme-installer/">
+              Via WordPress Theme Installer
             </a></li><li>
-            <a href="/docs/0.8.2/installation/npm/">
-              NPM
-            </a></li><li>
-            <a href="/docs/0.8.2/installation/composer/">
-              Composer
-            </a></li><li>
-            <a href="/docs/0.8.2/installation/bower/">
-              Bower
-            </a></li><li>
-            <a href="/docs/0.8.2/installation/yarn/">
-              Yarn
+            <a href="/docs/0.8.2/installation/via-npm/">
+              Via NPM
             </a></li></ul>
     </div><div class="bd-toc-item active">
       <a class="bd-toc-link" href="/docs/0.8.2/getting-started/theme-structure/">
@@ -178,11 +169,11 @@
             <a href="/docs/0.8.2/development/developing-with-npm-and-gulp/">
               Developing with npm and Gulp
             </a></li><li>
-            <a href="/docs/0.8.2/development/working-with-gulp-watch/">
-              Working with Gulp-watch
-            </a></li><li>
             <a href="/docs/0.8.2/development/available-gulp-tasks/">
               Available Gulp Tasks
+            </a></li><li>
+            <a href="/docs/0.8.2/development/bootstrap/">
+              Bootstrap
             </a></li><li>
             <a href="/docs/0.8.2/development/scss/">
               SCSS
@@ -263,13 +254,13 @@
         
           <div class="d-none d-xl-block col-xl-2 bd-toc">
             <ul class="section-nav">
-<li class="toc-entry toc-h3"><a href="#blank-template">Blank Template</a></li>
-<li class="toc-entry toc-h3"><a href="#empty-template">Empty Template</a></li>
-<li class="toc-entry toc-h3"><a href="#default-template">Default Template</a></li>
-<li class="toc-entry toc-h3"><a href="#both-sidebars-template">Both Sidebars Template</a></li>
-<li class="toc-entry toc-h3"><a href="#left-sidebar-template">Left Sidebar Template</a></li>
-<li class="toc-entry toc-h3"><a href="#right-sidebars-template">Right Sidebars Template</a></li>
-<li class="toc-entry toc-h3"><a href="#full-width-template">Full Width Template</a></li>
+<li class="toc-entry toc-h2"><a href="#blank-template">Blank Template</a></li>
+<li class="toc-entry toc-h2"><a href="#empty-template">Empty Template</a></li>
+<li class="toc-entry toc-h2"><a href="#default-template">Default Template</a></li>
+<li class="toc-entry toc-h2"><a href="#both-sidebars-template">Both Sidebars Template</a></li>
+<li class="toc-entry toc-h2"><a href="#left-sidebar-template">Left Sidebar Template</a></li>
+<li class="toc-entry toc-h2"><a href="#right-sidebars-template">Right Sidebars Template</a></li>
+<li class="toc-entry toc-h2"><a href="#full-width-template">Full Width Template</a></li>
 </ul>
           </div>
         
@@ -277,25 +268,32 @@
         <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
           <h1 class="bd-title" id="content">Page Templates</h1>
           <p class="bd-lead"></p>
-          <h3 id="blank-template">Blank Template</h3>
+          <h2 id="blank-template">Blank Template</h2>
+
 <p>The blank.php template is useful when working with various page builders and can be used as a starting blank canvas. It comes without any layout.</p>
 
-<h3 id="empty-template">Empty Template</h3>
+<h2 id="empty-template">Empty Template</h2>
+
 <p>The empty.php template displays a header and a footer only. A good starting point for landing pages.</p>
 
-<h3 id="default-template">Default Template</h3>
+<h2 id="default-template">Default Template</h2>
+
 <p>The default template is embedded into standard page.php and displays sidebars according to your settings in the <a href="/docs/0.8.2/getting-started/customizer-options/">Customizer</a>.</p>
 
-<h3 id="both-sidebars-template">Both Sidebars Template</h3>
+<h2 id="both-sidebars-template">Both Sidebars Template</h2>
+
 <p>The both-sidebarspage.php displays both sidebars for a page no matter what you have set in the Customizer.</p>
 
-<h3 id="left-sidebar-template">Left Sidebar Template</h3>
+<h2 id="left-sidebar-template">Left Sidebar Template</h2>
+
 <p>The left-sidebarpage.php displays only a left sidebar for a page.</p>
 
-<h3 id="right-sidebars-template">Right Sidebars Template</h3>
+<h2 id="right-sidebars-template">Right Sidebars Template</h2>
+
 <p>The right-sidebarpage.php displays only a right sidebar for a page.</p>
 
-<h3 id="full-width-template">Full Width Template</h3>
+<h2 id="full-width-template">Full Width Template</h2>
+
 <p>The fullwidthpage.php template has a full width layout without any sidebar.</p>
 
         </main>
@@ -306,7 +304,7 @@
     <ul class="bd-footer-links">
       <li><a href="https://github.com/understrap/understrap" target="_blank" rel="noopener">GitHub</a></li>
       <li><a href="https://twitter.com/@_understrap" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="/docs/0.8.2/about/">About</a></li>
+      <li><a href="/docs/0.8.2/about/about-understrap/">About</a></li>
     </ul>
     <p>Founded by Holger Könemann. Maintained by the <a href="https://github.com/orgs/understrap/people" target="_blank" rel="noopener">core team</a> with the help of <a href="https://github.com/understrap/understrap/graphs/contributors" target="_blank" rel="noopener">our contributors</a>.</p>
     <p>Latest Version v0.8.2. Code licensed under <a href="https://github.com/understrap/understrap/blob/master/LICENSE.md" target="_blank" rel="noopener">GNU General Public License v2.0</a>, Docs <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener">CC BY 3.0</a>.</p>

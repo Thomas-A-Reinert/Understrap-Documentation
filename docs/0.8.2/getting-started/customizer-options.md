@@ -6,7 +6,7 @@ group: getting-started
 toc: true
 ---
 
-### Standard Customizer Settings
+## Standard Customizer Settings
 
 Feel free to extend as you wish but UnderStrap core will most probably always remain pretty barebone - despite various comments on our Github Issue tracker that wanted to tell us that UnderStrap doesn´t have any future if we wouldn´t implement options galore.
 

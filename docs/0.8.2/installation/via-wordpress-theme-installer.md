@@ -28,6 +28,9 @@ Select the previously stored .zip file from your HDD and click *Install now*.
 
 As soon as the upload is finished you may choose to *Live Preview* or *Activate* your uploaded theme.
 
+{% capture callout %}
+**IMPORTANT**: If you download UnderStrap from GitHub make sure you rename the `understrap-master.zip` file to `understrap.zip` or to rename the uncompressed folder to `understrap`.
 
-Should be mentioned that you may have to rename the theme/uncompressed folder. See: -- IMPORTANT: If you download it from GitHub make sure you rename the "understrap-master.zip" file just to "understrap.zip" or you might have problems using this child themes !!
-{: .p-3 .mb-2 .bg-warning .text-white}
+Otherwise you might run into problems updating the theme or using child themes.
+{% endcapture %}
+{% include callout.html content=callout type="warning" %}

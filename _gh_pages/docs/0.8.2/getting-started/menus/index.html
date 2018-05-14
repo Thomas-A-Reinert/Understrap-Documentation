@@ -40,15 +40,15 @@
 <meta name="twitter:creator" content="@_understrap">
 <meta name="twitter:title" content="WordPress Menus">
 <meta name="twitter:description" content="UnderStrap supports only a primary menu with two levels, means just a single submenu level.">
-<meta name="twitter:image" content="http://localhost:4711/assets/brand/bootstrap-social-logo.png">
+<meta name="twitter:image" content=".//assets/brand/bootstrap-social-logo.png">
 
 <!-- Facebook -->
-<meta property="og:url" content="http://localhost:4711/docs/0.8.2/getting-started/menus/">
+<meta property="og:url" content=".//docs/0.8.2/getting-started/menus/">
 <meta property="og:title" content="WordPress Menus">
 <meta property="og:description" content="UnderStrap supports only a primary menu with two levels, means just a single submenu level.">
 <meta property="og:type" content="website">
-<meta property="og:image" content="http://localhost:4711/assets/brand/bootstrap-social.png">
-<meta property="og:image:secure_url" content="http://localhost:4711/assets/brand/bootstrap-social.png">
+<meta property="og:image" content=".//assets/brand/bootstrap-social.png">
+<meta property="og:image:secure_url" content=".//assets/brand/bootstrap-social.png">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -125,25 +125,16 @@
 
       <ul class="nav bd-sidenav"></ul>
     </div><div class="bd-toc-item">
-      <a class="bd-toc-link" href="/docs/0.8.2/installation/wordpress-theme-installer/">
+      <a class="bd-toc-link" href="/docs/0.8.2/installation/via-wordpress-theme-installer/">
         Installation
       </a>
 
       <ul class="nav bd-sidenav"><li>
-            <a href="/docs/0.8.2/installation/wordpress-theme-installer/">
-              WordPress Theme Installer
+            <a href="/docs/0.8.2/installation/via-wordpress-theme-installer/">
+              Via WordPress Theme Installer
             </a></li><li>
-            <a href="/docs/0.8.2/installation/npm/">
-              NPM
-            </a></li><li>
-            <a href="/docs/0.8.2/installation/composer/">
-              Composer
-            </a></li><li>
-            <a href="/docs/0.8.2/installation/bower/">
-              Bower
-            </a></li><li>
-            <a href="/docs/0.8.2/installation/yarn/">
-              Yarn
+            <a href="/docs/0.8.2/installation/via-npm/">
+              Via NPM
             </a></li></ul>
     </div><div class="bd-toc-item active">
       <a class="bd-toc-link" href="/docs/0.8.2/getting-started/theme-structure/">
@@ -178,11 +169,11 @@
             <a href="/docs/0.8.2/development/developing-with-npm-and-gulp/">
               Developing with npm and Gulp
             </a></li><li>
-            <a href="/docs/0.8.2/development/working-with-gulp-watch/">
-              Working with Gulp-watch
-            </a></li><li>
             <a href="/docs/0.8.2/development/available-gulp-tasks/">
               Available Gulp Tasks
+            </a></li><li>
+            <a href="/docs/0.8.2/development/bootstrap/">
+              Bootstrap
             </a></li><li>
             <a href="/docs/0.8.2/development/scss/">
               SCSS
@@ -263,13 +254,9 @@
         
           <div class="d-none d-xl-block col-xl-2 bd-toc">
             <ul class="section-nav">
-<li class="toc-entry toc-h3"><a href="#adding-icons-to-the-menu">Adding Icons to the Menu</a>
-<ul>
-<li class="toc-entry toc-h4"><a href="#you-cannot-see-a-css-classes-optional-field">You cannot see a “CSS Classes (optional)” field?</a></li>
-</ul>
-</li>
-<li class="toc-entry toc-h3"><a href="#adding-social-media-icons-and-hiding-the-text-from-non-visually-impaired-users">Adding Social Media Icons and hiding the text from non visually impaired users</a></li>
-<li class="toc-entry toc-h3"><a href="#adding-more-menus">Adding more Menus</a></li>
+<li class="toc-entry toc-h2"><a href="#adding-icons-to-the-menu">Adding Icons to the Menu</a></li>
+<li class="toc-entry toc-h2"><a href="#adding-social-media-icons-and-hiding-the-text-from-non-visually-impaired-users">Adding Social Media Icons and hiding the text from non visually impaired users</a></li>
+<li class="toc-entry toc-h2"><a href="#adding-more-menus">Adding more Menus</a></li>
 </ul>
           </div>
         
@@ -277,7 +264,7 @@
         <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
           <h1 class="bd-title" id="content">WordPress Menus</h1>
           <p class="bd-lead">UnderStrap supports only a primary menu with two levels, means just a single submenu level.</p>
-          <h3 id="adding-icons-to-the-menu">Adding Icons to the Menu</h3>
+          <h2 id="adding-icons-to-the-menu">Adding Icons to the Menu</h2>
 
 <p>If you want to prepend an icon to any of your menu items, you can use any of <a href="/docs/0.8.2/extend/fontawesome-4/">FontAwesome 4.7</a>´s icons that come along with UnderStrap. To get an overview of all FontAwesome icons that ship with UnderStrap have a look at their <a href="https://fontawesome.com/v4.7.0/icons/" target="_blank">675 icons</a>.</p>
 
@@ -287,13 +274,13 @@
 
 <p>As you can see in the image above you can add custom classes (e.g. <code class="highlighter-rouge">fa fa-home</code>) to any menu item.{ .mb-5}</p>
 
-<div class="bd-callout bd-callout-warning mt-5 mb-5">
-  <p><span class="fa fa-question-circle-o" aria-hidden="true" style="font-size:5em; float:left; margin-right:.5em; color:rgba(255,0,0,.5);"><span></span></span></p>
-  <h4 id="you-cannot-see-a-css-classes-optional-field">You cannot see a “<em>CSS Classes (optional)</em>” field?</h4>
-  <p>Check the upper right corner of that page and click <code class="highlighter-rouge">Screen Options</code> - toggle <code class="highlighter-rouge">CSS</code> on and your good to go.</p>
+<div class="bd-callout bd-callout-warning">
+<p>You cannot see a <code class="highlighter-rouge">CSS Classes (optional)</code> field?</p>
+
+<p>Check the upper right corner of that page and click <code class="highlighter-rouge">Screen Options</code> - toggle <code class="highlighter-rouge">CSS</code> on and your good to go.</p>
 </div>
 
-<h3 id="adding-social-media-icons-and-hiding-the-text-from-non-visually-impaired-users">Adding Social Media Icons and hiding the text from non visually impaired users</h3>
+<h2 id="adding-social-media-icons-and-hiding-the-text-from-non-visually-impaired-users">Adding Social Media Icons and hiding the text from non visually impaired users</h2>
 
 <p>If you want to add social media icons for example but respect <a href="https://www.w3.org/TR/WCAG20/" target="_blank">WCAG 2.0 guidelines</a> you´ll need to provide some assistive text for visually impaired users. But most problably you´ll not want to show it to non visually impaired users.</p>
 
@@ -310,7 +297,7 @@
 <span class="nt">&lt;/li&gt;</span></code></pre></figure>
 <p>As you can see the icon will get automatically hidden for visually impaired users by the <code class="highlighter-rouge">aria-hidden="true"</code> attribute while the text will get wrapped by a <code class="highlighter-rouge">&lt;span class="sr-only"&gt;</code> which will only be “shown” to screenreaders.</p>
 
-<h3 id="adding-more-menus">Adding more Menus</h3>
+<h2 id="adding-more-menus">Adding more Menus</h2>
 
 <p>If you want to add more menus please see <a href="/docs/0.8.2/extend/custom-menus-and-menu-areas/">Extend » Custom Menus and Menu Areas</a>.</p>
 
@@ -322,7 +309,7 @@
     <ul class="bd-footer-links">
       <li><a href="https://github.com/understrap/understrap" target="_blank" rel="noopener">GitHub</a></li>
       <li><a href="https://twitter.com/@_understrap" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="/docs/0.8.2/about/">About</a></li>
+      <li><a href="/docs/0.8.2/about/about-understrap/">About</a></li>
     </ul>
     <p>Founded by Holger Könemann. Maintained by the <a href="https://github.com/orgs/understrap/people" target="_blank" rel="noopener">core team</a> with the help of <a href="https://github.com/understrap/understrap/graphs/contributors" target="_blank" rel="noopener">our contributors</a>.</p>
     <p>Latest Version v0.8.2. Code licensed under <a href="https://github.com/understrap/understrap/blob/master/LICENSE.md" target="_blank" rel="noopener">GNU General Public License v2.0</a>, Docs <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener">CC BY 3.0</a>.</p>

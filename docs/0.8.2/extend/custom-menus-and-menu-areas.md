@@ -83,7 +83,13 @@ No matter if Parent or Child theme - integrating the new menu/s into your theme 
 ```
 
 **Explanation:**
+
 - `'theme_location'` - *must* correspond to the first string (the menu ID) when registering the new menu.
 - `'container_id'` - *must* be unique on a page. Prefixing it with your menu ID will solve that.
 - `'menu_id'` - *must* be unique on a page. Using the menu ID (like mentioned above) will solve that.
 - `'depth'` - `1` will just allow main menu items while `2` will also allow submenus.
+
+{% capture callout %}
+Please see [WP Bootstrap Navwalker Readme.md](https://github.com/wp-bootstrap/wp-bootstrap-navwalker/blob/master/README.md){:target="_blank"} for further options.
+{% endcapture %}
+{% include callout.html content=callout type="info" %}

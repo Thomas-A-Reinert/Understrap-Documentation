@@ -40,15 +40,15 @@
 <meta name="twitter:creator" content="@_understrap">
 <meta name="twitter:title" content="Available Gulp Tasks">
 <meta name="twitter:description" content="UnderStrap provides a set of gulp tasks to automate compilation and minification of stylesheets and JavaScript.">
-<meta name="twitter:image" content="http://localhost:4711/assets/brand/bootstrap-social-logo.png">
+<meta name="twitter:image" content=".//assets/brand/bootstrap-social-logo.png">
 
 <!-- Facebook -->
-<meta property="og:url" content="http://localhost:4711/docs/0.8.2/development/available-gulp-tasks/">
+<meta property="og:url" content=".//docs/0.8.2/development/available-gulp-tasks/">
 <meta property="og:title" content="Available Gulp Tasks">
 <meta property="og:description" content="UnderStrap provides a set of gulp tasks to automate compilation and minification of stylesheets and JavaScript.">
 <meta property="og:type" content="website">
-<meta property="og:image" content="http://localhost:4711/assets/brand/bootstrap-social.png">
-<meta property="og:image:secure_url" content="http://localhost:4711/assets/brand/bootstrap-social.png">
+<meta property="og:image" content=".//assets/brand/bootstrap-social.png">
+<meta property="og:image:secure_url" content=".//assets/brand/bootstrap-social.png">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -125,25 +125,16 @@
 
       <ul class="nav bd-sidenav"></ul>
     </div><div class="bd-toc-item">
-      <a class="bd-toc-link" href="/docs/0.8.2/installation/wordpress-theme-installer/">
+      <a class="bd-toc-link" href="/docs/0.8.2/installation/via-wordpress-theme-installer/">
         Installation
       </a>
 
       <ul class="nav bd-sidenav"><li>
-            <a href="/docs/0.8.2/installation/wordpress-theme-installer/">
-              WordPress Theme Installer
+            <a href="/docs/0.8.2/installation/via-wordpress-theme-installer/">
+              Via WordPress Theme Installer
             </a></li><li>
-            <a href="/docs/0.8.2/installation/npm/">
-              NPM
-            </a></li><li>
-            <a href="/docs/0.8.2/installation/composer/">
-              Composer
-            </a></li><li>
-            <a href="/docs/0.8.2/installation/bower/">
-              Bower
-            </a></li><li>
-            <a href="/docs/0.8.2/installation/yarn/">
-              Yarn
+            <a href="/docs/0.8.2/installation/via-npm/">
+              Via NPM
             </a></li></ul>
     </div><div class="bd-toc-item">
       <a class="bd-toc-link" href="/docs/0.8.2/getting-started/theme-structure/">
@@ -177,12 +168,12 @@
       <ul class="nav bd-sidenav"><li>
             <a href="/docs/0.8.2/development/developing-with-npm-and-gulp/">
               Developing with npm and Gulp
-            </a></li><li>
-            <a href="/docs/0.8.2/development/working-with-gulp-watch/">
-              Working with Gulp-watch
             </a></li><li class="active bd-sidenav-active">
             <a href="/docs/0.8.2/development/available-gulp-tasks/">
               Available Gulp Tasks
+            </a></li><li>
+            <a href="/docs/0.8.2/development/bootstrap/">
+              Bootstrap
             </a></li><li>
             <a href="/docs/0.8.2/development/scss/">
               SCSS
@@ -263,7 +254,18 @@
         
           <div class="d-none d-xl-block col-xl-2 bd-toc">
             <ul class="section-nav">
-<li class="toc-entry toc-h3"><a href="#make-sure-to-have-gulp-installed-globally">Make sure to have Gulp installed globally!</a></li>
+<li class="toc-entry toc-h2"><a href="#gulp-browsersync">Gulp BrowserSync</a></li>
+<li class="toc-entry toc-h2"><a href="#gulp-sass">Gulp sass</a></li>
+<li class="toc-entry toc-h2"><a href="#gulp-cssnano">Gulp cssnano</a></li>
+<li class="toc-entry toc-h2"><a href="#gulp-minifycss">Gulp minifycss</a></li>
+<li class="toc-entry toc-h2"><a href="#gulp-cleancss">Gulp cleancss</a></li>
+<li class="toc-entry toc-h2"><a href="#gulp-styles">Gulp styles</a></li>
+<li class="toc-entry toc-h2"><a href="#gulp-scripts">Gulp scripts</a></li>
+<li class="toc-entry toc-h2"><a href="#gulp-imagemin">Gulp imagemin</a></li>
+<li class="toc-entry toc-h2"><a href="#gulp-generate-distribution">Gulp Generate Distribution</a></li>
+<li class="toc-entry toc-h2"><a href="#gulp-generate-distribution-with-production-environment">Gulp Generate Distribution with Production Environment</a></li>
+<li class="toc-entry toc-h2"><a href="#gulp-clean-sourcecode-folder">Gulp Clean Sourcecode Folder</a></li>
+<li class="toc-entry toc-h2"><a href="#gulp-copy-assets-from-bower">Gulp Copy Assets from Bower</a></li>
 </ul>
           </div>
         
@@ -272,18 +274,151 @@
           <h1 class="bd-title" id="content">Available Gulp Tasks</h1>
           <p class="bd-lead">UnderStrap provides a set of gulp tasks to automate compilation and minification of stylesheets and JavaScript.</p>
           
-<div class="bd-callout bd-callout-info">
-<h3 id="make-sure-to-have-gulp-installed-globally">Make sure to have Gulp installed globally!</h3>
-<p>Please follow our Guide on how to install npm and Gulp if you haven´t done so.</p>
+<div class="bd-callout bd-callout-warning">
+<p>Make sure you have gulp and node installed.</p>
+
+<p>Please follow instructions provided in <a href="/docs/0.8.2/development/developing-with-npm-and-gulp/">Development » Developing with npm and gulp</a></p>
 </div>
 
-<p>Gulp is a toolkit that helps you automate painful or time-consuming tasks in your development workflow. Platform-agnostic - Integrations are built into all major IDEs and people are using gulp with PHP, .NET, Node.js, Java, and other platforms.</p>
+<div class="bd-callout bd-callout-info">
+<p>There is a good amount of Gulp-Tasks available, but you´d probably only want to use a few of them. Most of them are explained below.</p>
+</div>
 
-<p>To install gulp, open up a terminal and execute</p>
+<h2 id="gulp-browsersync">Gulp BrowserSync</h2>
 
-<figure class="highlight"><pre><code class="language-sh" data-lang="sh">npm <span class="nb">install</span> <span class="nt">--global</span> gulp-cli</code></pre></figure>
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh">gulp watch-bs</code></pre></figure>
 
-<p>test?</p>
+<p><strong>Explanation:</strong></p>
+
+<ul>
+  <li>Triggers BrowserSync to watch any file in the <code class="highlighter-rouge">understrap</code>-folder for changes.</li>
+  <li>Will autocompile SCSS, Javascript and minify images upon changes.</li>
+  <li>Needs setting up <code class="highlighter-rouge">browserSyncOptions</code> in <code class="highlighter-rouge">./gulpconfig.json</code> correctly.</li>
+</ul>
+
+<h2 id="gulp-sass">Gulp sass</h2>
+
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh">gulp sass</code></pre></figure>
+
+<p><strong>Explanation:</strong></p>
+
+<ul>
+  <li>Compiles all SCSS files from <code class="highlighter-rouge">./sass</code> into CSS. Needs to be run manually each time when you want to re-compile SCS into CSS code.</li>
+  <li>Runs autoprefixer for latest 2 Browser-Versions and generates Sourcemaps.</li>
+  <li>Does <em>not</em> minify files. See <code class="highlighter-rouge">gulp cssnano</code>.</li>
+</ul>
+
+<h2 id="gulp-cssnano">Gulp cssnano</h2>
+
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh">gulp cssnano</code></pre></figure>
+
+<p><strong>Explanation:</strong></p>
+
+<ul>
+  <li>Discards all comments.</li>
+  <li>Minifies <code class="highlighter-rouge">theme.css</code> from <code class="highlighter-rouge">./css</code> and renames it to <code class="highlighter-rouge">theme.min.css</code>.</li>
+  <li>Leaves the original, human-readable <code class="highlighter-rouge">theme.css</code> in place.</li>
+</ul>
+
+<h2 id="gulp-minifycss">Gulp minifycss</h2>
+
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh">gulp minifycss</code></pre></figure>
+
+<p><strong>Explanation:</strong></p>
+
+<ul>
+  <li>Minifies everything but <code class="highlighter-rouge">theme.css</code> from <code class="highlighter-rouge">./css</code> and renames them to corresponding <code class="highlighter-rouge">*.min.css</code>.</li>
+  <li>Leaves the original, human-readable <code class="highlighter-rouge">*.css</code> in place.</li>
+</ul>
+
+<h2 id="gulp-cleancss">Gulp cleancss</h2>
+
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh">gulp cleancss</code></pre></figure>
+
+<p><strong>Explanation:</strong></p>
+
+<ul>
+  <li>Minifies <code class="highlighter-rouge">theme.css</code> from <code class="highlighter-rouge">./css</code> and renames it to <code class="highlighter-rouge">theme.min.css</code>.</li>
+  <li>Leaves the original, human-readable <code class="highlighter-rouge">theme.css</code> in place.</li>
+</ul>
+
+<h2 id="gulp-styles">Gulp styles</h2>
+
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh">gulp imastylesgemin</code></pre></figure>
+
+<p><strong>Explanation:</strong></p>
+
+<ul>
+  <li>Is a task runner that runs <code class="highlighter-rouge">gulp sass</code> and <code class="highlighter-rouge">gulp minifycss</code> in a sequence.</li>
+</ul>
+
+<h2 id="gulp-scripts">Gulp scripts</h2>
+
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh">gulp scripts</code></pre></figure>
+
+<p><strong>Explanation:</strong></p>
+
+<ul>
+  <li>Takes <code class="highlighter-rouge">./src/js/bootstrap4/bootstrap.js</code>, <code class="highlighter-rouge">./src/js/skip-link-focus-fix.js</code> and <code class="highlighter-rouge">./src/js/custom-javascript.js</code> and compiles them into one concatenated file in <code class="highlighter-rouge">./js/theme.js</code>.</li>
+  <li>Will be uglyfied into <code class="highlighter-rouge">./js/theme.min.js</code> at last.</li>
+</ul>
+
+<h2 id="gulp-imagemin">Gulp imagemin</h2>
+
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh">gulp imagemin</code></pre></figure>
+
+<p><strong>Explanation:</strong></p>
+
+<ul>
+  <li>Minifies images located in <code class="highlighter-rouge">./src/img</code> and copies the minified files to <code class="highlighter-rouge">./img</code>.</li>
+</ul>
+
+<h2 id="gulp-generate-distribution">Gulp Generate Distribution</h2>
+
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh">gulp dist</code></pre></figure>
+
+<p><strong>Explanation:</strong></p>
+
+<ul>
+  <li>Creates a <code class="highlighter-rouge">./dist</code> folder and copies all needed files for distribution as simple theme.</li>
+  <li>Does <em>not</em> contain any development files (like <code class="highlighter-rouge">./src</code>, <code class="highlighter-rouge">./sass</code> or <code class="highlighter-rouge">./node_modules</code>).</li>
+</ul>
+
+<h2 id="gulp-generate-distribution-with-production-environment">Gulp Generate Distribution with Production Environment</h2>
+
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh">gulp dist-product</code></pre></figure>
+
+<p><strong>Explanation:</strong></p>
+
+<ul>
+  <li>Creates a <code class="highlighter-rouge">./ dist-product</code> folder and copies all needed files for distribution as a simple theme with all production assets.</li>
+  <li><em>Does</em> contain development files like <code class="highlighter-rouge">./src</code> and <code class="highlighter-rouge">./sass</code>.</li>
+</ul>
+
+<div class="bd-callout bd-callout-warning">
+<p>The following scripts should not be run manually - except when you know exactly what you are doing!</p>
+</div>
+
+<h2 id="gulp-clean-sourcecode-folder">Gulp Clean Sourcecode Folder</h2>
+
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh">gulp clean-source</code></pre></figure>
+
+<p><strong>Explanation:</strong></p>
+
+<ul>
+  <li>Deletes anything in the <code class="highlighter-rouge">./src</code> folder.</li>
+</ul>
+
+<h2 id="gulp-copy-assets-from-bower">Gulp Copy Assets from Bower</h2>
+
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh">gulp copy-assets</code></pre></figure>
+
+<p><strong>Explanation:</strong></p>
+
+<ul>
+  <li>Copy all needed dependency assets files from bower_component assets to themes <code class="highlighter-rouge">./js</code>, <code class="highlighter-rouge">./scss</code> and <code class="highlighter-rouge">./fonts</code> folder.</li>
+  <li>Run this task after bower install or bower update</li>
+</ul>
 
         </main>
       </div>
@@ -293,7 +428,7 @@
     <ul class="bd-footer-links">
       <li><a href="https://github.com/understrap/understrap" target="_blank" rel="noopener">GitHub</a></li>
       <li><a href="https://twitter.com/@_understrap" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="/docs/0.8.2/about/">About</a></li>
+      <li><a href="/docs/0.8.2/about/about-understrap/">About</a></li>
     </ul>
     <p>Founded by Holger Könemann. Maintained by the <a href="https://github.com/orgs/understrap/people" target="_blank" rel="noopener">core team</a> with the help of <a href="https://github.com/understrap/understrap/graphs/contributors" target="_blank" rel="noopener">our contributors</a>.</p>
     <p>Latest Version v0.8.2. Code licensed under <a href="https://github.com/understrap/understrap/blob/master/LICENSE.md" target="_blank" rel="noopener">GNU General Public License v2.0</a>, Docs <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener">CC BY 3.0</a>.</p>

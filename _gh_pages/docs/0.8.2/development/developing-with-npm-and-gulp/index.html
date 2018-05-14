@@ -40,15 +40,15 @@
 <meta name="twitter:creator" content="@_understrap">
 <meta name="twitter:title" content="Developing with npm &amp; Gulp">
 <meta name="twitter:description" content="UnderStrap uses npm as a dependency manager for packages like Bootstrap and Underscores. It also uses Gulp as a taskrunner to compile SASS code into .css, minify Javascript code etc.">
-<meta name="twitter:image" content="http://localhost:4711/assets/brand/bootstrap-social-logo.png">
+<meta name="twitter:image" content=".//assets/brand/bootstrap-social-logo.png">
 
 <!-- Facebook -->
-<meta property="og:url" content="http://localhost:4711/docs/0.8.2/development/developing-with-npm-and-gulp/">
+<meta property="og:url" content=".//docs/0.8.2/development/developing-with-npm-and-gulp/">
 <meta property="og:title" content="Developing with npm &amp; Gulp">
 <meta property="og:description" content="UnderStrap uses npm as a dependency manager for packages like Bootstrap and Underscores. It also uses Gulp as a taskrunner to compile SASS code into .css, minify Javascript code etc.">
 <meta property="og:type" content="website">
-<meta property="og:image" content="http://localhost:4711/assets/brand/bootstrap-social.png">
-<meta property="og:image:secure_url" content="http://localhost:4711/assets/brand/bootstrap-social.png">
+<meta property="og:image" content=".//assets/brand/bootstrap-social.png">
+<meta property="og:image:secure_url" content=".//assets/brand/bootstrap-social.png">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -125,25 +125,16 @@
 
       <ul class="nav bd-sidenav"></ul>
     </div><div class="bd-toc-item">
-      <a class="bd-toc-link" href="/docs/0.8.2/installation/wordpress-theme-installer/">
+      <a class="bd-toc-link" href="/docs/0.8.2/installation/via-wordpress-theme-installer/">
         Installation
       </a>
 
       <ul class="nav bd-sidenav"><li>
-            <a href="/docs/0.8.2/installation/wordpress-theme-installer/">
-              WordPress Theme Installer
+            <a href="/docs/0.8.2/installation/via-wordpress-theme-installer/">
+              Via WordPress Theme Installer
             </a></li><li>
-            <a href="/docs/0.8.2/installation/npm/">
-              NPM
-            </a></li><li>
-            <a href="/docs/0.8.2/installation/composer/">
-              Composer
-            </a></li><li>
-            <a href="/docs/0.8.2/installation/bower/">
-              Bower
-            </a></li><li>
-            <a href="/docs/0.8.2/installation/yarn/">
-              Yarn
+            <a href="/docs/0.8.2/installation/via-npm/">
+              Via NPM
             </a></li></ul>
     </div><div class="bd-toc-item">
       <a class="bd-toc-link" href="/docs/0.8.2/getting-started/theme-structure/">
@@ -178,11 +169,11 @@
             <a href="/docs/0.8.2/development/developing-with-npm-and-gulp/">
               Developing with npm and Gulp
             </a></li><li>
-            <a href="/docs/0.8.2/development/working-with-gulp-watch/">
-              Working with Gulp-watch
-            </a></li><li>
             <a href="/docs/0.8.2/development/available-gulp-tasks/">
               Available Gulp Tasks
+            </a></li><li>
+            <a href="/docs/0.8.2/development/bootstrap/">
+              Bootstrap
             </a></li><li>
             <a href="/docs/0.8.2/development/scss/">
               SCSS
@@ -266,7 +257,7 @@
 <li class="toc-entry toc-h2"><a href="#preparations-install-nodejs-and-gulp">Preparations: Install node.js and Gulp</a></li>
 <li class="toc-entry toc-h2"><a href="#installing-theme-dependencies">Installing Theme Dependencies</a></li>
 <li class="toc-entry toc-h2"><a href="#theme-setup">Theme Setup</a></li>
-<li class="toc-entry toc-h2"><a href="#getting-started">Getting Started</a></li>
+<li class="toc-entry toc-h2"><a href="#getting-started-developing-with-browsersync">Getting Started Developing with BrowserSync</a></li>
 </ul>
           </div>
         
@@ -280,9 +271,7 @@
 If not: You have to install npm (comes along with node.js) and Gulp before you can proceed.</p>
 
 <div class="bd-callout bd-callout-info">
-<p><span class="fa fa-exclamation-circle" aria-hidden="true" style="font-size:1.5em; float:left; margin-right:.5em;"></span>
-  node.js, npm and Gulp are cross-platform, which means you can run them under Windows, MacOs and Linux!
-  <span class="clearfloat"></span></p>
+<p>node.js, npm and Gulp are cross-platform, which means you can run them under Windows, MacOs and Linux!</p>
 </div>
 
 <p>To install node.js visit the <a href="https://nodejs.org/en/download/" target="_blank">node.js</a> website for the latest installer for your OS. Download and install it like any other program.</p>
@@ -305,7 +294,7 @@ If not: You have to install npm (comes along with node.js) and Gulp before you c
 
 <p>UnderStrap contains a configuration file called <code class="highlighter-rouge">gulpconfig.json</code> found in the theme root. To use BrowserSync to refresh the website on file change you will have to configure your proxy settings. By default the proxy is set to <code class="highlighter-rouge">localhost/wordpress/</code>, change this to your sites URL.</p>
 
-<h2 id="getting-started">Getting Started</h2>
+<h2 id="getting-started-developing-with-browsersync">Getting Started Developing with BrowserSync</h2>
 
 <p>To get started developing on your new UnderStrap based theme, open a console and navigate to the UnderStrap theme folder. Then to start watching for file changes and browser refresh with BrowserSync execute:</p>
 
@@ -321,7 +310,7 @@ If not: You have to install npm (comes along with node.js) and Gulp before you c
     <ul class="bd-footer-links">
       <li><a href="https://github.com/understrap/understrap" target="_blank" rel="noopener">GitHub</a></li>
       <li><a href="https://twitter.com/@_understrap" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="/docs/0.8.2/about/">About</a></li>
+      <li><a href="/docs/0.8.2/about/about-understrap/">About</a></li>
     </ul>
     <p>Founded by Holger Könemann. Maintained by the <a href="https://github.com/orgs/understrap/people" target="_blank" rel="noopener">core team</a> with the help of <a href="https://github.com/understrap/understrap/graphs/contributors" target="_blank" rel="noopener">our contributors</a>.</p>
     <p>Latest Version v0.8.2. Code licensed under <a href="https://github.com/understrap/understrap/blob/master/LICENSE.md" target="_blank" rel="noopener">GNU General Public License v2.0</a>, Docs <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener">CC BY 3.0</a>.</p>

@@ -6,7 +6,6 @@ group: introduction
 toc: true
 ---
 
-
 The [_s theme](https://underscores.me/){:target="_blank"} is a good starting point to develop a WordPress theme. But it is “just” a raw starter theme. That means it outputs all the WordPress stuff correctly but without any layout or design. Why not add a well known and supported layout framework to have a solid, clean and responsive foundation?
 
 That’s where Bootstrap comes in.

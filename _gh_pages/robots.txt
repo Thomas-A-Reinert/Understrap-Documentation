@@ -3,4 +3,4 @@
 # Allow crawling of all content
 User-agent: *
 Disallow:
-Sitemap: http://localhost:4711/sitemap.xml
+Sitemap: .//sitemap.xml

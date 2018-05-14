@@ -12,9 +12,7 @@ At first you need node.js and Gulp installed on your computer globally. If you h
 If not: You have to install npm (comes along with node.js) and Gulp before you can proceed.
 
 {% capture callout %}
-  <span class="fa fa-exclamation-circle" aria-hidden="true" style="font-size:1.5em; float:left; margin-right:.5em;"></span>
-  node.js, npm and Gulp are cross-platform, which means you can run them under Windows, MacOs and Linux!
-  <span class="clearfloat"></span>
+node.js, npm and Gulp are cross-platform, which means you can run them under Windows, MacOs and Linux!
 {% endcapture %}
 {% include callout.html content=callout type="info" %}
 
@@ -41,7 +39,7 @@ Then open your terminal and browse to the location of your UnderStrap copy.
 
 UnderStrap contains a configuration file called `gulpconfig.json` found in the theme root. To use BrowserSync to refresh the website on file change you will have to configure your proxy settings. By default the proxy is set to `localhost/wordpress/`, change this to your sites URL.
 
-## Getting Started
+## Getting Started Developing with BrowserSync
 
 To get started developing on your new UnderStrap based theme, open a console and navigate to the UnderStrap theme folder. Then to start watching for file changes and browser refresh with BrowserSync execute:
 

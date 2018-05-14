@@ -1,44 +1,36 @@
 ---
 layout: docs
 title: License FAQs
-description: Commonly asked questions about Bootstrap's open source license.
+description: Commonly asked questions about UnderStrap's open source license.
 group: about
-# toc: true
 ---
 
-UnderStrap is released under the terms of the GPL version 2 or (at your option) any later version. http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+UnderStrap is released under the terms of the [GPL version 2](http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html){:target="_blank"} or (at your option) any later version.
 
 &copy; {{ site.time | date: "%Y" }} UnderStrap. Boiled down to smaller chunks, it can be described with the following conditions.
 
-{::options parse_block_html="true" /}
-<div class="bg-danger">
-  <h1 class="text-white">Needs to be adjusted to meet UnderStraps´ License!</h1>
-</div>
-{::options parse_block_html="false" /}
-
-
 #### It requires you to:
 
-* Keep the license and copyright notice included in Bootstrap's CSS and JavaScript files when you use them in your works
+* Keep the license and copyright notice included in UnderStrap's PHP, CSS and JavaScript files when you use them in your works
 
 #### It permits you to:
 
-- Freely download and use Bootstrap, in whole or in part, for personal, private, company internal, or commercial purposes
-- Use Bootstrap in packages or distributions that you create
+- Freely download and use UnderStrap, in whole or in part, for personal, private, company internal, or commercial purposes
+- Use UnderStrap in packages or distributions that you create
 - Modify the source code
-- Grant a sublicense to modify and distribute Bootstrap to third parties not included in the license
+- Grant a sublicense to modify and distribute UnderStrap to third parties not included in the license
 
 #### It forbids you to:
 
-- Hold the authors and license owners liable for damages as Bootstrap is provided without warranty
-- Hold the creators or copyright holders of Bootstrap liable
-- Redistribute any piece of Bootstrap without proper attribution
+- Hold the authors and license owners liable for damages as UnderStrap is provided without warranty
+- Hold the creators or copyright holders of UnderStrap liable
+- Redistribute any piece of UnderStrap without proper attribution
 - Use any marks owned by Twitter in any way that might state or imply that Twitter endorses your distribution
 - Use any marks owned by Twitter in any way that might state or imply that you created the Twitter software in question
 
 #### It does not require you to:
 
-- Include the source of Bootstrap itself, or of any modifications you may have made to it, in any redistribution you may assemble that includes it
-- Submit changes that you make to Bootstrap back to the Bootstrap project (though such feedback is encouraged)
+- Include the source of UnderStrap itself, or of any modifications you may have made to it, in any redistribution you may assemble that includes it
+- Submit changes that you make to UnderStrap back to the UnderStrap project (though such feedback is encouraged)
 
-The full Bootstrap license is located [in the project repository]({{ site.repo }}/blob/v{{ site.current_version }}/LICENSE) for more information.
+The full UnderStrap license is located [in the project repository]({{ site.repo }}/blob/master/LICENSE.md) for more information.

@@ -39,6 +39,7 @@ register_sidebar( array(
 ```
 
 **Explanation:**
+
 - `'id'` - The most elementary thing in the above code is that you keep the `id` in this case `custom-sidebar` *unique* for a sidebar.
 - `'name'` - the untranslated english string for your sidebar that will be mapped for translations to your `understrap`-Textdomain.
 - `'description'` - the untranslated english string for the description that will be mapped for translations to your `understrap`-Textdomain.
@@ -70,6 +71,7 @@ add_action( 'init', 'register_additional_childtheme_sidebars' );
 ```
 
 **Explanation:**
+
 - `'id'` - The most elementary thing in the above code is that you keep the `id` in this case `custom-sidebar` *unique* for a sidebar.
 - `'name'` - the untranslated english string for your sidebar that will be mapped for translations to your `child-theme-textdomain`-Textdomain.
 - `'description'` - the untranslated english string for the description that will be mapped for translations to your `child-theme-textdomain`-Textdomain.

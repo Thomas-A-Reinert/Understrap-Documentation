@@ -2,11 +2,8 @@
 
 - title: Installation
   pages:
-    - title: WordPress Theme Installer
-    - title: NPM
-    - title: Composer
-    - title: Bower
-    - title: Yarn
+    - title: Via WordPress Theme Installer
+    - title: Via NPM
 
 - title: Getting started
   pages:
@@ -20,8 +17,8 @@
 - title: Development
   pages:
     - title: Developing with npm and Gulp
-    - title: Working with Gulp-watch
     - title: Available Gulp Tasks
+    - title: Bootstrap
     - title: SCSS
 
 - title: Extend
