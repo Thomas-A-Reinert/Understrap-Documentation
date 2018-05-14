@@ -106,11 +106,11 @@ understrap/
 │   │   └── skip-link-focus-fix.js
 │   │
 │   ├── sass/
-│   │   ├── bootstrap4/
-│   │   ├── fontawesome/
-│   │   └── underscores/
+│       ├── bootstrap4/
+│       ├── fontawesome/
+│       └── underscores/
 │
-└── woocommerce/
+├── woocommerce/
 │   ├── cart/
 │   │   ├── cart.php
 │   │   ├── cart-empty.php
