@@ -165,115 +165,115 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "docs/0.8.2/about/about-understrap/index.html",
-    "revision": "f40033140d2cfbc22ca70e5f57842208"
+    "revision": "b4c55841658aaffc9b90b6f1500e7f46"
   },
   {
     "url": "docs/0.8.2/about/credits/index.html",
-    "revision": "39054101d05ab6095a03a9323c769e7d"
+    "revision": "ab5bbf48e97a47b7e10f2d49416d8b3a"
   },
   {
     "url": "docs/0.8.2/about/license/index.html",
-    "revision": "1b8683ca372ba214c277778f40e42e46"
+    "revision": "b37e7a7a030d5692e90abf438a2d56cb"
   },
   {
     "url": "docs/0.8.2/changelog/index.html",
-    "revision": "f5cb7edbc8c51b8a2cc91a1bebb51845"
+    "revision": "b0f90e7ee13c6724ee2ee4600cc7ae44"
   },
   {
     "url": "docs/0.8.2/development/available-gulp-tasks/index.html",
-    "revision": "573df85b1081786e9880421b025addbd"
+    "revision": "355ac6d1be67fd689e4f8b22b543eb7d"
   },
   {
     "url": "docs/0.8.2/development/bootstrap/index.html",
-    "revision": "91e4d78de7dfd0f3650c06960d98022b"
+    "revision": "e404a5d6f72fad4a35f1eeea3b78309b"
   },
   {
     "url": "docs/0.8.2/development/developing-with-npm-and-gulp/index.html",
-    "revision": "abf9dacbbcffd713e8e547e6474b1e2b"
+    "revision": "5d144b2cf75fc15176e5b131ea09bd27"
   },
   {
     "url": "docs/0.8.2/development/scss/index.html",
-    "revision": "40f46bbb9d1f3840bf956ea91d66e0c7"
+    "revision": "c7253a99a05a58d44fab94dd31a739a6"
   },
   {
     "url": "docs/0.8.2/extend/custom-menus-and-menu-areas/index.html",
-    "revision": "ccf7284ac337d4605f44a28daa7aa9ed"
+    "revision": "099afde8d6e01e5745dce15c906c93d4"
   },
   {
     "url": "docs/0.8.2/extend/custom-widget-areas-sidebars/index.html",
-    "revision": "2341b66eced63444a0e06785d3296c1d"
+    "revision": "bc1cd4b6efbb21081b60b99c4646e8f3"
   },
   {
     "url": "docs/0.8.2/extend/fontawesome-4/index.html",
-    "revision": "b338adf0517235b7dbb10199048c4b72"
+    "revision": "ac613688f04d06783a483c2b0ec5d651"
   },
   {
     "url": "docs/0.8.2/extend/fontawesome-5/index.html",
-    "revision": "57b7bc2a78437ff5182a164d210f6f62"
+    "revision": "572fd1299af23b4a9561f220b5c9c681"
   },
   {
     "url": "docs/0.8.2/getting-started/child-theme/index.html",
-    "revision": "dbe69b1554bd3a513c374d2c151c65f9"
+    "revision": "f80da8dd449e08e1651302d41acf519a"
   },
   {
     "url": "docs/0.8.2/getting-started/customizer-options/index.html",
-    "revision": "454b237599b074e870f4011a4a48db94"
+    "revision": "907303153bbcd3eff8a40b6a673618e3"
   },
   {
     "url": "docs/0.8.2/getting-started/gulp-tasks/index.html",
-    "revision": "d87bbde697f8b133dd2079d169c988f8"
+    "revision": "76748f4a7cc0bb3801958fa1daa46107"
   },
   {
     "url": "docs/0.8.2/getting-started/menus/index.html",
-    "revision": "c15a066f210efe58f9d34f7656188202"
+    "revision": "50839470d1cfd5a97c47c8d3f91684f0"
   },
   {
     "url": "docs/0.8.2/getting-started/page-templates/index.html",
-    "revision": "0c611c373a7b4ac2fb288a2216756591"
+    "revision": "cc0f87697fc38ba67c38dc09b62aea30"
   },
   {
     "url": "docs/0.8.2/getting-started/theme-structure/index.html",
-    "revision": "5e40a5b411bd25d418ff36d0e4ec455e"
+    "revision": "a7411a24ea61e87a68f2adf9e57a75e6"
   },
   {
     "url": "docs/0.8.2/getting-started/widgets-widget-areas/index.html",
-    "revision": "cb2520ae078c53699f76df75e5d77315"
+    "revision": "c6bb70397c72d508a4dfed6eaf86e2c1"
   },
   {
     "url": "docs/0.8.2/gutenberg/index.html",
-    "revision": "f6ecd4d3527354e3073923254fd710c5"
+    "revision": "d9d4c860e54814b5ef0b6c56c5874034"
   },
   {
     "url": "docs/0.8.2/how-to-update/child-theme/index.html",
-    "revision": "17e0fc39032ae122f93eccb6dc9c52b0"
+    "revision": "26cda59620ece893d691284735cf7e25"
   },
   {
     "url": "docs/0.8.2/how-to-update/parent-theme/index.html",
-    "revision": "2406ffc0d27ca75b27577ac8e4be6588"
+    "revision": "e2849655d772ab4f83cf647161c2f3ec"
   },
   {
     "url": "docs/0.8.2/installation/via-npm/index.html",
-    "revision": "aff95105cccd2c4d8353af04129434aa"
+    "revision": "83e73c022ee6876d539f540d55a017bc"
   },
   {
     "url": "docs/0.8.2/installation/via-wordpress-theme-installer/index.html",
-    "revision": "dfa755ac4e5b569e30962c9d845404bf"
+    "revision": "4e8bf5dd1ea95e8d50d3999eb743af40"
   },
   {
     "url": "docs/0.8.2/introduction/index.html",
-    "revision": "b3b83fa3682bba5f135f3fce4e4dfeff"
+    "revision": "d4bffb32204a49e81a47dcd7d6d0c223"
   },
   {
     "url": "docs/0.8.2/translating-understrap/index.html",
-    "revision": "a094245dabef27a37a7720ce57b8d75f"
+    "revision": "e25e1b6887e704039649467994296d17"
   },
   {
     "url": "docs/0.8.2/woocommerce/index.html",
-    "revision": "745280772c9f0777f7ff7cbad29101d5"
+    "revision": "0088dfdbf0e79f27214cb3042d0541bd"
   },
   {
     "url": "index.html",
-    "revision": "8a19971d665344b64beae3010e66352d"
+    "revision": "c4e7a936f19d3d28b346021deff9d770"
   },
   {
     "url": "redirects.json",
