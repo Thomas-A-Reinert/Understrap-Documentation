@@ -257,7 +257,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "docs/0.8.2/installation/via-wordpress-theme-installer/index.html",
-    "revision": "4e8bf5dd1ea95e8d50d3999eb743af40"
+    "revision": "de5597602a0e981632dc07742b691910"
   },
   {
     "url": "docs/0.8.2/introduction/index.html",

@@ -6,6 +6,12 @@ group: installation
 toc: false
 ---
 
+## What is the difference between distributions on WordPress.org and Github?
+
+The [release on WordPress.org](https://wordpress.org/themes/understrap/){:target="_blank"} is the official *stable* version that is also available through WordPress built in theme installer.
+
+The [release on Github](https://github.com/understrap/understrap){:target="_blank"} is the current development or “cutting edge” version. You can also download it from there. But you should use it at your own risk. You are also cordially invited to fork it from there, participate in UnderStrap´s development or post any issue you may stumble upon.
+
 ## Standard WordPress Theme Installation
 
 You can install UnderStrap just like any other theme from [WordPress.org](https://wordpress.org/themes/understrap/){:target="_blank"}. This means you can install it from your WordPress´ backend just like any other theme.
