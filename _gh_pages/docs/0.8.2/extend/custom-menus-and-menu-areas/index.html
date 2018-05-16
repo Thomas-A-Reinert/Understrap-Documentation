@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="By default, UnderStrap just supports a single menu - the primary Menu located on top of the page. But yes, you can extend that to your liking!">
+<meta name="author" content="Holger Könemann (Founder), GuerrillaCoder, Stef Kariotidis, Jason King, Johan Nielsen, Thomas A. Reinert, Alex Wright and UnderStrap contributors">
+<meta name="generator" content="Jekyll v3.8.0">
+
+<title>Custom Menus and Menu Areas · UnderStrap</title>
+
+<!-- Bootstrap core CSS -->
+
+<link href="/Understrap-Documentation/dist/css/bootstrap.css" rel="stylesheet">
+
+
+<!-- Documentation extras -->
+<link href="/Understrap-Documentation/assets/css/docs.min.css" rel="stylesheet">
+
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="/Understrap-Documentation/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/Understrap-Documentation/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/Understrap-Documentation/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/Understrap-Documentation/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/Understrap-Documentation/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+<link rel="icon" href="/Understrap-Documentation/favicon.ico">
+<meta name="msapplication-config" content="/Understrap-Documentation/assets/img/favicons/browserconfig.xml">
+<meta name="theme-color" content="#563d7c">
+
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@_understrap">
+<meta name="twitter:creator" content="@_understrap">
+<meta name="twitter:title" content="Custom Menus and Menu Areas">
+<meta name="twitter:description" content="By default, UnderStrap just supports a single menu - the primary Menu located on top of the page. But yes, you can extend that to your liking!">
+<meta name="twitter:image" content="https://thomas-a-reinert.github.io/assets/brand/bootstrap-social-logo.png">
+
+<!-- Facebook -->
+<meta property="og:url" content="https://thomas-a-reinert.github.io/docs/0.8.2/extend/custom-menus-and-menu-areas/">
+<meta property="og:title" content="Custom Menus and Menu Areas">
+<meta property="og:description" content="By default, UnderStrap just supports a single menu - the primary Menu located on top of the page. But yes, you can extend that to your liking!">
+<meta property="og:type" content="website">
+<meta property="og:image" content="http://thomas-a-reinert.github.io/assets/brand/bootstrap-social.png">
+<meta property="og:image:secure_url" content="https://thomas-a-reinert.github.io/assets/brand/bootstrap-social.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+
+  </head>
+  <body>
+    <a id="skippy" class="sr-only sr-only-focusable" href="#content">
+  <div class="container">
+    <span class="skiplink-text">Skip to main content</span>
+  </div>
+</a>
+
+
+    <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
+
+  <a class="navbar-brand mr-0 mr-md-2" href="/Understrap-Documentation/" aria-label="Bootstrap"><svg class="d-block" width="36" height="36" viewbox="0 0 612 612" xmlns="http://www.w3.org/2000/svg" focusable="false"><title>Bootstrap</title><path fill="currentColor" d="M510 8a94.3 94.3 0 0 1 94 94v408a94.3 94.3 0 0 1-94 94H102a94.3 94.3 0 0 1-94-94V102a94.3 94.3 0 0 1 94-94h408m0-8H102C45.9 0 0 45.9 0 102v408c0 56.1 45.9 102 102 102h408c56.1 0 102-45.9 102-102V102C612 45.9 566.1 0 510 0z"/><path fill="currentColor" d="M196.77 471.5V154.43h124.15c54.27 0 91 31.64 91 79.1 0 33-24.17 63.72-54.71 69.21v1.76c43.07 5.49 70.75 35.82 70.75 78 0 55.81-40 89-107.45 89zm39.55-180.4h63.28c46.8 0 72.29-18.68 72.29-53 0-31.42-21.53-48.78-60-48.78h-75.57zm78.22 145.46c47.68 0 72.73-19.34 72.73-56s-25.93-55.37-76.46-55.37h-74.49v111.4z"/></svg>
+</a>
+
+  <a class="navbar-brand" href="/Understrap-Documentation/">UnderStrap Documentation</a>
+
+  <div class="navbar-nav-scroll">
+    <ul class="navbar-nav bd-navbar-nav flex-row">
+      <!-- <li class="nav-item">
+        <a class="nav-link " href="/Understrap-Documentation/">Home</a>
+      </li> -->
+      <li class="nav-item">
+        <a class="nav-link " href="/Understrap-Documentation/docs/0.8.2/introduction">Documentation</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/understrap/understrap/issues/208" target="_blank" rel="noopener">Real-life Examples</a>
+      </li>
+    </ul>
+  </div>
+
+  <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+    <li class="nav-item dropdown">
+      <a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" id="bd-versions" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">
+        v0.8
+      </a>
+      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bd-versions">
+        <a class="dropdown-item active" href="/Understrap-Documentation/docs/0.8.2/">Latest (0.8.2)</a>
+      </div>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link p-2" href="https://github.com/understrap/understrap" target="_blank" rel="noopener" aria-label="GitHub"><svg class="navbar-nav-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 499.36" focusable="false"><title>GitHub</title><path d="M256 0C114.64 0 0 114.61 0 256c0 113.09 73.34 209 175.08 242.9 12.8 2.35 17.47-5.56 17.47-12.34 0-6.08-.22-22.18-.35-43.54-71.2 15.49-86.2-34.34-86.2-34.34-11.64-29.57-28.42-37.45-28.42-37.45-23.27-15.84 1.73-15.55 1.73-15.55 25.69 1.81 39.21 26.38 39.21 26.38 22.84 39.12 59.92 27.82 74.5 21.27 2.33-16.54 8.94-27.82 16.25-34.22-56.84-6.43-116.6-28.43-116.6-126.49 0-27.95 10-50.8 26.35-68.69-2.63-6.48-11.42-32.5 2.51-67.75 0 0 21.49-6.88 70.4 26.24a242.65 242.65 0 0 1 128.18 0c48.87-33.13 70.33-26.24 70.33-26.24 14 35.25 5.18 61.27 2.55 67.75 16.41 17.9 26.31 40.75 26.31 68.69 0 98.35-59.85 120-116.88 126.32 9.19 7.9 17.38 23.53 17.38 47.41 0 34.22-.31 61.83-.31 70.23 0 6.85 4.61 14.81 17.6 12.31C438.72 464.97 512 369.08 512 256.02 512 114.62 397.37 0 256 0z" fill="currentColor" fill-rule="evenodd"/></svg>
+</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link p-2" href="https://twitter.com/_understrap" target="_blank" rel="noopener" aria-label="Twitter"><svg class="navbar-nav-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 416.32" focusable="false"><title>Twitter</title><path d="M160.83 416.32c193.2 0 298.92-160.22 298.92-298.92 0-4.51 0-9-.2-13.52A214 214 0 0 0 512 49.38a212.93 212.93 0 0 1-60.44 16.6 105.7 105.7 0 0 0 46.3-58.19 209 209 0 0 1-66.79 25.37 105.09 105.09 0 0 0-181.73 71.91 116.12 116.12 0 0 0 2.66 24c-87.28-4.3-164.73-46.3-216.56-109.82A105.48 105.48 0 0 0 68 159.6a106.27 106.27 0 0 1-47.53-13.11v1.43a105.28 105.28 0 0 0 84.21 103.06 105.67 105.67 0 0 1-47.33 1.84 105.06 105.06 0 0 0 98.14 72.94A210.72 210.72 0 0 1 25 370.84a202.17 202.17 0 0 1-25-1.43 298.85 298.85 0 0 0 160.83 46.92" fill="currentColor"/></svg>
+</a>
+    </li>
+  </ul>
+
+  <a class="btn btn-bd-download d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="https://github.com/understrap/understrap/archive/master.zip">Download</a>
+</header>
+
+
+    <div class="container-fluid">
+      <div class="row flex-xl-nowrap">
+        <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
+          <!-- <form class="bd-search d-flex align-items-center">
+  <input type="search" class="form-control" id="search-input" placeholder="Search..." aria-label="Search for..." autocomplete="off">
+  <button class="btn btn-link bd-search-docs-toggle d-md-none p-0 ml-3" type="button" data-toggle="collapse" data-target="#bd-docs-nav" aria-controls="bd-docs-nav" aria-expanded="false" aria-label="Toggle docs navigation"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/></svg>
+</button>
+</form> -->
+
+<nav class="collapse bd-links" id="bd-docs-nav"><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/Understrap-Documentation/docs/0.8.2/introduction/">
+        Introduction
+      </a>
+
+      <ul class="nav bd-sidenav"></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/Understrap-Documentation/docs/0.8.2/installation/via-wordpress-theme-installer/">
+        Installation
+      </a>
+
+      <ul class="nav bd-sidenav"><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/installation/via-wordpress-theme-installer/">
+              Via WordPress Theme Installer
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/installation/via-npm/">
+              Via NPM
+            </a></li></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/Understrap-Documentation/docs/0.8.2/getting-started/theme-structure/">
+        Getting started
+      </a>
+
+      <ul class="nav bd-sidenav"><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/getting-started/theme-structure/">
+              Theme Structure
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/getting-started/child-theme/">
+              Child Theme
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/getting-started/page-templates/">
+              Page Templates
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/getting-started/customizer-options/">
+              Customizer Options
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/getting-started/menus/">
+              Menus
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/getting-started/widgets-widget-areas/">
+              Widgets & Widget Areas
+            </a></li></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/Understrap-Documentation/docs/0.8.2/development/developing-with-npm-and-gulp/">
+        Development
+      </a>
+
+      <ul class="nav bd-sidenav"><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/development/developing-with-npm-and-gulp/">
+              Developing with npm and Gulp
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/development/available-gulp-tasks/">
+              Available Gulp Tasks
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/development/bootstrap/">
+              Bootstrap
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/development/scss/">
+              SCSS
+            </a></li></ul>
+    </div><div class="bd-toc-item active">
+      <a class="bd-toc-link" href="/Understrap-Documentation/docs/0.8.2/extend/fontawesome-4/">
+        Extend
+      </a>
+
+      <ul class="nav bd-sidenav"><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/extend/fontawesome-4/">
+              FontAwesome 4
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/extend/fontawesome-5/">
+              FontAwesome 5
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/extend/custom-widget-areas-sidebars/">
+              Custom Widget Areas / Sidebars
+            </a></li><li class="active bd-sidenav-active">
+            <a href="/Understrap-Documentation/docs/0.8.2/extend/custom-menus-and-menu-areas/">
+              Custom Menus and Menu Areas
+            </a></li></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/Understrap-Documentation/docs/0.8.2/how-to-update/parent-theme/">
+        How to update
+      </a>
+
+      <ul class="nav bd-sidenav"><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/how-to-update/parent-theme/">
+              Parent theme
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/how-to-update/child-theme/">
+              Child theme
+            </a></li></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/Understrap-Documentation/docs/0.8.2/woocommerce/">
+        WooCommerce
+      </a>
+
+      <ul class="nav bd-sidenav"></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/Understrap-Documentation/docs/0.8.2/gutenberg/">
+        Gutenberg
+      </a>
+
+      <ul class="nav bd-sidenav"></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/Understrap-Documentation/docs/0.8.2/translating-understrap/">
+        Translating UnderStrap
+      </a>
+
+      <ul class="nav bd-sidenav"></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/Understrap-Documentation/docs/0.8.2/changelog/">
+        Changelog
+      </a>
+
+      <ul class="nav bd-sidenav"></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/Understrap-Documentation/docs/0.8.2/about/about-understrap/">
+        About
+      </a>
+
+      <ul class="nav bd-sidenav"><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/about/about-understrap/">
+              About UnderStrap
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/about/license/">
+              License
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/about/credits/">
+              Credits
+            </a></li></ul>
+    </div></nav>
+
+        </div>
+
+        
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#adding-another-menu-bar-to-the-parent-theme">Adding another Menu Bar to the Parent Theme</a></li>
+<li class="toc-entry toc-h2"><a href="#adding-menu-bars-to-a-child-theme">Adding Menu Bars to a Child Theme</a></li>
+<li class="toc-entry toc-h2"><a href="#embedding-the-new-menu-in-your-theme">Embedding the new Menu in your theme</a></li>
+</ul>
+          </div>
+        
+
+        <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
+          <h1 class="bd-title" id="content">Custom Menus and Menu Areas</h1>
+          <p class="bd-lead">By default, UnderStrap just supports a single menu - the primary Menu located on top of the page. But yes, you can extend that to your liking!</p>
+          <h2 id="adding-another-menu-bar-to-the-parent-theme">Adding another Menu Bar to the Parent Theme</h2>
+
+<div class="bd-callout bd-callout-warning">
+<p><strong>Sidenote:</strong> We do not recommend changing the parent theme, because all of your changes will be overwritten when you´ll try to update.<br />
+This is really only recommended if you want to build your own parent theme based on UnderStrap.</p>
+<p>If you want to keep the parent theme updateable and want to follow the recommended way of setting up a child-theme, please skip to the next section.</p>
+</div>
+
+<p>In <code class="highlighter-rouge">./inc/setup.php</code> find the following snippet:</p>
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// This theme uses wp_nav_menu() in one location.</span>
+<span class="nx">register_nav_menus</span><span class="p">(</span> <span class="k">array</span><span class="p">(</span>
+  <span class="s1">'primary'</span> <span class="o">=&gt;</span> <span class="nx">__</span><span class="p">(</span> <span class="s1">'Primary Menu'</span><span class="p">,</span> <span class="s1">'understrap'</span> <span class="p">),</span>
+<span class="p">)</span> <span class="p">);</span>
+</code></pre></div></div>
+
+<p>If you want to register another menu - e.g. a footer menu - edit the code like so:</p>
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// This theme uses wp_nav_menu() in one location.</span>
+<span class="nx">register_nav_menus</span><span class="p">(</span> <span class="k">array</span><span class="p">(</span>
+  <span class="s1">'primary'</span> <span class="o">=&gt;</span> <span class="nx">__</span><span class="p">(</span> <span class="s1">'Primary Menu'</span><span class="p">,</span> <span class="s1">'understrap'</span> <span class="p">),</span>
+  <span class="s1">'footer_menu'</span> <span class="o">=&gt;</span> <span class="nx">__</span><span class="p">(</span> <span class="s1">'Footer Menu'</span><span class="p">,</span> <span class="s1">'understrap'</span><span class="p">),</span>
+<span class="p">)</span> <span class="p">);</span>
+</code></pre></div></div>
+
+<p><strong>Explanation:</strong> The string <code class="highlighter-rouge">footer_menu</code> (the menu ID) is the string under which it will be available in your theme. <code class="highlighter-rouge">Footer Menu</code> is the untranslated english string that will be mapped for translations to the understrap-Textdomain.</p>
+
+<p>This way you´ll be able to translate this string by extending and editing understrap.pot found in <code class="highlighter-rouge">./languages</code> or with plugins like <a href="https://wordpress.org/plugins/loco-translate/" target="_blank">Loco Translate</a> or <a href="https://wpml.org/" target="_blank">WPML</a> which will do that for you.</p>
+
+<p>From now on your “Footer Menu” will be accessible throught the menu administration and you can add menu entries to it.</p>
+
+<p>To see how you can embed it in your theme, please check the corresponding section below.</p>
+
+<h2 id="adding-menu-bars-to-a-child-theme">Adding Menu Bars to a Child Theme</h2>
+
+<p>Open up <code class="highlighter-rouge">./functions.php</code>. Add the following code to the end of the file.</p>
+
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">function</span> <span class="nf">register_childtheme_menus</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nx">register_nav_menu</span><span class="p">(</span><span class="s1">'footer_menu'</span><span class="p">,</span> <span class="nx">__</span><span class="p">(</span> <span class="s1">'Footer Menu'</span><span class="p">,</span> <span class="s1">'child-theme-textdomain'</span> <span class="p">));</span>
+  <span class="nx">register_nav_menu</span><span class="p">(</span><span class="s1">'socialmedia_menu'</span><span class="p">,</span> <span class="nx">__</span><span class="p">(</span> <span class="s1">'Socialmedia Menu'</span><span class="p">,</span> <span class="s1">'child-theme-textdomain'</span> <span class="p">));</span>
+<span class="p">}</span>
+
+<span class="nx">add_action</span><span class="p">(</span> <span class="s1">'init'</span><span class="p">,</span> <span class="s1">'register_childtheme_menus'</span> <span class="p">);</span>
+</code></pre></div></div>
+
+<p>This way we´re adding two menus - a Footer menu and another Social Media menu. Add more lines if you need to add more menus or delete the second if you only need one.</p>
+
+<p><strong>Explanation:</strong> The string <code class="highlighter-rouge">footer_menu</code> (the menu ID) is the string under which it will be available in your theme. <code class="highlighter-rouge">Footer Menu</code> is the untranslated english string that will be mapped for translations to your <code class="highlighter-rouge">child-theme-textdomain</code>-Textdomain.</p>
+
+<p>This way you´ll be able to translate this string by extending and editing understrap.pot found in <code class="highlighter-rouge">./languages</code> or with plugins like <a href="https://wordpress.org/plugins/loco-translate/" target="_blank">Loco Translate</a> or <a href="https://wpml.org/" target="_blank">WPML</a> which will do that for you.</p>
+
+<p>From now on your “Footer Menu” will be accessible through the menu administration and you can add menu entries to it.</p>
+
+<h2 id="embedding-the-new-menu-in-your-theme">Embedding the new Menu in your theme</h2>
+
+<p>No matter if Parent or Child theme - integrating the new menu/s into your theme is exactly the same. Open up the template where you want to integrate the new Menu and add the following code:</p>
+
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
+  <span class="nx">wp_nav_menu</span><span class="p">(</span>
+    <span class="k">array</span><span class="p">(</span>
+      <span class="s1">'theme_location'</span>  <span class="o">=&gt;</span> <span class="s1">'footer_menu'</span><span class="p">,</span>
+      <span class="s1">'container_class'</span> <span class="o">=&gt;</span> <span class="s1">'collapse navbar-collapse'</span><span class="p">,</span>
+      <span class="s1">'container_id'</span>    <span class="o">=&gt;</span> <span class="s1">'footer_menuNavDropdown'</span><span class="p">,</span>
+      <span class="s1">'menu_class'</span>      <span class="o">=&gt;</span> <span class="s1">'navbar-nav'</span><span class="p">,</span>
+      <span class="s1">'fallback_cb'</span>     <span class="o">=&gt;</span> <span class="s1">''</span><span class="p">,</span>
+      <span class="s1">'menu_id'</span>         <span class="o">=&gt;</span> <span class="s1">'footer_menu'</span><span class="p">,</span>
+      <span class="s1">'depth'</span>           <span class="o">=&gt;</span> <span class="mi">1</span><span class="p">,</span>
+      <span class="s1">'walker'</span>          <span class="o">=&gt;</span> <span class="k">new</span> <span class="nx">Understrap_WP_Bootstrap_Navwalker</span><span class="p">(),</span>
+    <span class="p">)</span>
+  <span class="p">);</span>
+<span class="cp">?&gt;</span>
+</code></pre></div></div>
+
+<p><strong>Explanation:</strong></p>
+
+<ul>
+  <li><code class="highlighter-rouge">'theme_location'</code> - <em>must</em> correspond to the first string (the menu ID) when registering the new menu.</li>
+  <li><code class="highlighter-rouge">'container_id'</code> - <em>must</em> be unique on a page. Prefixing it with your menu ID will solve that.</li>
+  <li><code class="highlighter-rouge">'menu_id'</code> - <em>must</em> be unique on a page. Using the menu ID (like mentioned above) will solve that.</li>
+  <li><code class="highlighter-rouge">'depth'</code> - <code class="highlighter-rouge">1</code> will just allow main menu items while <code class="highlighter-rouge">2</code> will also allow submenus.</li>
+</ul>
+
+<div class="bd-callout bd-callout-info">
+<p>Please see <a href="https://github.com/wp-bootstrap/wp-bootstrap-navwalker/blob/master/README.md" target="_blank">WP Bootstrap Navwalker Readme.md</a> for further options.</p>
+</div>
+
+
+        </main>
+      </div>
+    </div>
+    <footer class="bd-footer text-muted">
+  <div class="container-fluid p-3 p-md-5">
+    <ul class="bd-footer-links">
+      <li><a href="https://github.com/understrap/understrap" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://twitter.com/@_understrap" target="_blank" rel="noopener">Twitter</a></li>
+      <li><a href="/Understrap-Documentation/docs/0.8.2/about/about-understrap/">About</a></li>
+    </ul>
+    <p>Founded by Holger Koenemann. Maintained by the <a href="https://github.com/orgs/understrap/people" target="_blank" rel="noopener">core team</a> with the help of <a href="https://github.com/understrap/understrap/graphs/contributors" target="_blank" rel="noopener">our contributors</a>.</p>
+    <p>Latest Version v0.8.2. Code licensed under <a href="https://github.com/understrap/understrap/blob/master/LICENSE.md" target="_blank" rel="noopener">GNU General Public License v2.0</a>, Docs <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener">CC BY 3.0</a>.</p>
+  </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="/Understrap-Documentation/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+
+<script src="/Understrap-Documentation/assets/js/vendor/popper.min.js"></script><script src="/Understrap-Documentation/dist/js/bootstrap.js"></script><script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script><script src="/Understrap-Documentation/assets/js/vendor/anchor.min.js"></script>
+  <script src="/Understrap-Documentation/assets/js/vendor/clipboard.min.js"></script>
+  <script src="/Understrap-Documentation/assets/js/vendor/holder.min.js"></script>
+  <script src="/Understrap-Documentation/assets/js/src/application.js"></script>
+  <script src="/Understrap-Documentation/assets/js/src/ie-emulation-modes-warning.js"></script>
+  <script src="/Understrap-Documentation/assets/js/src/pwa.js"></script>
+  </body>
+</html>

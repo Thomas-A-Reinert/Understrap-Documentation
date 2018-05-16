@@ -1,0 +1,694 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="A WordPress theme framework based on Bootstrap4 and _s">
+<meta name="author" content="Holger Könemann (Founder), GuerrillaCoder, Stef Kariotidis, Jason King, Johan Nielsen, Thomas A. Reinert, Alex Wright and UnderStrap contributors">
+<meta name="generator" content="Jekyll v3.8.0">
+
+<title>Changelog · UnderStrap</title>
+
+<!-- Bootstrap core CSS -->
+
+<link href="/Understrap-Documentation/dist/css/bootstrap.css" rel="stylesheet">
+
+
+<!-- Documentation extras -->
+<link href="/Understrap-Documentation/assets/css/docs.min.css" rel="stylesheet">
+
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="/Understrap-Documentation/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/Understrap-Documentation/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/Understrap-Documentation/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/Understrap-Documentation/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/Understrap-Documentation/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+<link rel="icon" href="/Understrap-Documentation/favicon.ico">
+<meta name="msapplication-config" content="/Understrap-Documentation/assets/img/favicons/browserconfig.xml">
+<meta name="theme-color" content="#563d7c">
+
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@_understrap">
+<meta name="twitter:creator" content="@_understrap">
+<meta name="twitter:title" content="Changelog">
+<meta name="twitter:description" content="A WordPress theme framework based on Bootstrap4 and _s">
+<meta name="twitter:image" content="https://thomas-a-reinert.github.io/assets/brand/bootstrap-social-logo.png">
+
+<!-- Facebook -->
+<meta property="og:url" content="https://thomas-a-reinert.github.io/docs/0.8.2/changelog/">
+<meta property="og:title" content="Changelog">
+<meta property="og:description" content="A WordPress theme framework based on Bootstrap4 and _s">
+<meta property="og:type" content="website">
+<meta property="og:image" content="http://thomas-a-reinert.github.io/assets/brand/bootstrap-social.png">
+<meta property="og:image:secure_url" content="https://thomas-a-reinert.github.io/assets/brand/bootstrap-social.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+
+  </head>
+  <body>
+    <a id="skippy" class="sr-only sr-only-focusable" href="#content">
+  <div class="container">
+    <span class="skiplink-text">Skip to main content</span>
+  </div>
+</a>
+
+
+    <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
+
+  <a class="navbar-brand mr-0 mr-md-2" href="/Understrap-Documentation/" aria-label="Bootstrap"><svg class="d-block" width="36" height="36" viewbox="0 0 612 612" xmlns="http://www.w3.org/2000/svg" focusable="false"><title>Bootstrap</title><path fill="currentColor" d="M510 8a94.3 94.3 0 0 1 94 94v408a94.3 94.3 0 0 1-94 94H102a94.3 94.3 0 0 1-94-94V102a94.3 94.3 0 0 1 94-94h408m0-8H102C45.9 0 0 45.9 0 102v408c0 56.1 45.9 102 102 102h408c56.1 0 102-45.9 102-102V102C612 45.9 566.1 0 510 0z"/><path fill="currentColor" d="M196.77 471.5V154.43h124.15c54.27 0 91 31.64 91 79.1 0 33-24.17 63.72-54.71 69.21v1.76c43.07 5.49 70.75 35.82 70.75 78 0 55.81-40 89-107.45 89zm39.55-180.4h63.28c46.8 0 72.29-18.68 72.29-53 0-31.42-21.53-48.78-60-48.78h-75.57zm78.22 145.46c47.68 0 72.73-19.34 72.73-56s-25.93-55.37-76.46-55.37h-74.49v111.4z"/></svg>
+</a>
+
+  <a class="navbar-brand" href="/Understrap-Documentation/">UnderStrap Documentation</a>
+
+  <div class="navbar-nav-scroll">
+    <ul class="navbar-nav bd-navbar-nav flex-row">
+      <!-- <li class="nav-item">
+        <a class="nav-link " href="/Understrap-Documentation/">Home</a>
+      </li> -->
+      <li class="nav-item">
+        <a class="nav-link " href="/Understrap-Documentation/docs/0.8.2/introduction">Documentation</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/understrap/understrap/issues/208" target="_blank" rel="noopener">Real-life Examples</a>
+      </li>
+    </ul>
+  </div>
+
+  <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+    <li class="nav-item dropdown">
+      <a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" id="bd-versions" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">
+        v0.8
+      </a>
+      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bd-versions">
+        <a class="dropdown-item active" href="/Understrap-Documentation/docs/0.8.2/">Latest (0.8.2)</a>
+      </div>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link p-2" href="https://github.com/understrap/understrap" target="_blank" rel="noopener" aria-label="GitHub"><svg class="navbar-nav-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 499.36" focusable="false"><title>GitHub</title><path d="M256 0C114.64 0 0 114.61 0 256c0 113.09 73.34 209 175.08 242.9 12.8 2.35 17.47-5.56 17.47-12.34 0-6.08-.22-22.18-.35-43.54-71.2 15.49-86.2-34.34-86.2-34.34-11.64-29.57-28.42-37.45-28.42-37.45-23.27-15.84 1.73-15.55 1.73-15.55 25.69 1.81 39.21 26.38 39.21 26.38 22.84 39.12 59.92 27.82 74.5 21.27 2.33-16.54 8.94-27.82 16.25-34.22-56.84-6.43-116.6-28.43-116.6-126.49 0-27.95 10-50.8 26.35-68.69-2.63-6.48-11.42-32.5 2.51-67.75 0 0 21.49-6.88 70.4 26.24a242.65 242.65 0 0 1 128.18 0c48.87-33.13 70.33-26.24 70.33-26.24 14 35.25 5.18 61.27 2.55 67.75 16.41 17.9 26.31 40.75 26.31 68.69 0 98.35-59.85 120-116.88 126.32 9.19 7.9 17.38 23.53 17.38 47.41 0 34.22-.31 61.83-.31 70.23 0 6.85 4.61 14.81 17.6 12.31C438.72 464.97 512 369.08 512 256.02 512 114.62 397.37 0 256 0z" fill="currentColor" fill-rule="evenodd"/></svg>
+</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link p-2" href="https://twitter.com/_understrap" target="_blank" rel="noopener" aria-label="Twitter"><svg class="navbar-nav-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 416.32" focusable="false"><title>Twitter</title><path d="M160.83 416.32c193.2 0 298.92-160.22 298.92-298.92 0-4.51 0-9-.2-13.52A214 214 0 0 0 512 49.38a212.93 212.93 0 0 1-60.44 16.6 105.7 105.7 0 0 0 46.3-58.19 209 209 0 0 1-66.79 25.37 105.09 105.09 0 0 0-181.73 71.91 116.12 116.12 0 0 0 2.66 24c-87.28-4.3-164.73-46.3-216.56-109.82A105.48 105.48 0 0 0 68 159.6a106.27 106.27 0 0 1-47.53-13.11v1.43a105.28 105.28 0 0 0 84.21 103.06 105.67 105.67 0 0 1-47.33 1.84 105.06 105.06 0 0 0 98.14 72.94A210.72 210.72 0 0 1 25 370.84a202.17 202.17 0 0 1-25-1.43 298.85 298.85 0 0 0 160.83 46.92" fill="currentColor"/></svg>
+</a>
+    </li>
+  </ul>
+
+  <a class="btn btn-bd-download d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="https://github.com/understrap/understrap/archive/master.zip">Download</a>
+</header>
+
+
+    <div class="container-fluid">
+      <div class="row flex-xl-nowrap">
+        <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
+          <!-- <form class="bd-search d-flex align-items-center">
+  <input type="search" class="form-control" id="search-input" placeholder="Search..." aria-label="Search for..." autocomplete="off">
+  <button class="btn btn-link bd-search-docs-toggle d-md-none p-0 ml-3" type="button" data-toggle="collapse" data-target="#bd-docs-nav" aria-controls="bd-docs-nav" aria-expanded="false" aria-label="Toggle docs navigation"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/></svg>
+</button>
+</form> -->
+
+<nav class="collapse bd-links" id="bd-docs-nav"><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/Understrap-Documentation/docs/0.8.2/introduction/">
+        Introduction
+      </a>
+
+      <ul class="nav bd-sidenav"></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/Understrap-Documentation/docs/0.8.2/installation/via-wordpress-theme-installer/">
+        Installation
+      </a>
+
+      <ul class="nav bd-sidenav"><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/installation/via-wordpress-theme-installer/">
+              Via WordPress Theme Installer
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/installation/via-npm/">
+              Via NPM
+            </a></li></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/Understrap-Documentation/docs/0.8.2/getting-started/theme-structure/">
+        Getting started
+      </a>
+
+      <ul class="nav bd-sidenav"><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/getting-started/theme-structure/">
+              Theme Structure
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/getting-started/child-theme/">
+              Child Theme
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/getting-started/page-templates/">
+              Page Templates
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/getting-started/customizer-options/">
+              Customizer Options
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/getting-started/menus/">
+              Menus
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/getting-started/widgets-widget-areas/">
+              Widgets & Widget Areas
+            </a></li></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/Understrap-Documentation/docs/0.8.2/development/developing-with-npm-and-gulp/">
+        Development
+      </a>
+
+      <ul class="nav bd-sidenav"><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/development/developing-with-npm-and-gulp/">
+              Developing with npm and Gulp
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/development/available-gulp-tasks/">
+              Available Gulp Tasks
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/development/bootstrap/">
+              Bootstrap
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/development/scss/">
+              SCSS
+            </a></li></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/Understrap-Documentation/docs/0.8.2/extend/fontawesome-4/">
+        Extend
+      </a>
+
+      <ul class="nav bd-sidenav"><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/extend/fontawesome-4/">
+              FontAwesome 4
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/extend/fontawesome-5/">
+              FontAwesome 5
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/extend/custom-widget-areas-sidebars/">
+              Custom Widget Areas / Sidebars
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/extend/custom-menus-and-menu-areas/">
+              Custom Menus and Menu Areas
+            </a></li></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/Understrap-Documentation/docs/0.8.2/how-to-update/parent-theme/">
+        How to update
+      </a>
+
+      <ul class="nav bd-sidenav"><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/how-to-update/parent-theme/">
+              Parent theme
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/how-to-update/child-theme/">
+              Child theme
+            </a></li></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/Understrap-Documentation/docs/0.8.2/woocommerce/">
+        WooCommerce
+      </a>
+
+      <ul class="nav bd-sidenav"></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/Understrap-Documentation/docs/0.8.2/gutenberg/">
+        Gutenberg
+      </a>
+
+      <ul class="nav bd-sidenav"></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/Understrap-Documentation/docs/0.8.2/translating-understrap/">
+        Translating UnderStrap
+      </a>
+
+      <ul class="nav bd-sidenav"></ul>
+    </div><div class="bd-toc-item active">
+      <a class="bd-toc-link" href="/Understrap-Documentation/docs/0.8.2/changelog/">
+        Changelog
+      </a>
+
+      <ul class="nav bd-sidenav"></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/Understrap-Documentation/docs/0.8.2/about/about-understrap/">
+        About
+      </a>
+
+      <ul class="nav bd-sidenav"><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/about/about-understrap/">
+              About UnderStrap
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/about/license/">
+              License
+            </a></li><li>
+            <a href="/Understrap-Documentation/docs/0.8.2/about/credits/">
+              Credits
+            </a></li></ul>
+    </div></nav>
+
+        </div>
+
+        
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            <ul class="section-nav">
+</ul>
+          </div>
+        
+
+        <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
+          <h1 class="bd-title" id="content">Changelog</h1>
+          <p class="bd-lead"></p>
+          <ul>
+  <li><strong>Release 0.8.2 April 11th 2018</strong>
+    <ul>
+      <li>Update to Bootstrap 4.1</li>
+      <li>Adding CONTRIBUTING.md and ISSUE_TEMPLATE.md - Thx <a href="https://github.com/Thomas-A-Reinert" target="_blank">@Thomas-A-Reinert</a></li>
+      <li>Adding empty JS file into build process for adding own JS more easily - Thx <a href="https://github.com/Thomas-A-Reinert" target="_blank">@Thomas-A-Reinert</a></li>
+      <li>WooCommerce update and cleanup - Thx <a href="https://github.com/ZacharyElkins" target="_blank">@ZacharyElkins</a></li>
+      <li>Adding SASS source map functionality - Thx <a href="https://github.com/axlright" target="_blank">@axlright</a></li>
+      <li>Cleanup - Thx <a href="https://github.com/axlright" target="_blank">@axlright</a></li>
+      <li>Adding custom editor SASS stylesheet into build process</li>
+      <li>Remove woocommerce.php integration and replace it with hooked approach - See: <a href="https://docs.woocommerce.com/document/third-party-custom-theme-compatibility/#section-5" target="_blank">https://docs.woocommerce.com/document/third-party-custom-theme-compatibility/#section-5</a></li>
+      <li>New pagination - Thx <a href="https://github.com/0dp" target="_blank">@0dp</a></li>
+      <li>Update functions.php - Thx <a href="https://github.com/0dp" target="_blank">@0dp</a></li>
+      <li>Add pluggable functions - Thx <a href="https://github.com/axlright" target="_blank">@axlright</a></li>
+      <li>Add polish translation - Thx @mirzal</li>
+      <li>Adding timestamp to js and css resources to prevent caching while developinh - Thx <a href="https://github.com/gintsmurans" target="_blank">@gintsmurans</a></li>
+      <li>Improve left sidebar check - Thx <a href="https://github.com/ZacharyElkins" target="_blank">@ZacharyElkins</a></li>
+    </ul>
+  </li>
+  <li><strong>Release 0.8.1 March 7th 2018</strong>
+    <ul>
+      <li>Updating dependencies</li>
+      <li>Fixing and improing gulpfile.js - thx <a href="https://github.com/0dp" target="_blank">@0dp</a></li>
+      <li>add function exists check in custom-comments.php  - Thx <a href="https://github.com/MarieComet" target="_blank">@MarieComet</a></li>
+      <li>Updated the markup for input groups according to BS 4 changes - Thx <a href="https://github.com/IngoVals" target="_blank">@IngoVals</a></li>
+      <li>Lot of fixes and improvements - Thx <a href="https://github.com/Thomas-A-Reinert" target="_blank">@Thomas-A-Reinert</a> and <a href="https://github.com/lilolbear" target="_blank">@lilolbear</a></li>
+      <li>Fixes invalid code due to WP´s itemprop insertion - Thx <a href="https://github.com/Thomas-A-Reinert" target="_blank">@Thomas-A-Reinert</a></li>
+      <li>Enhanced contrast to comply with WCAG 2.0 rules - Thx <a href="https://github.com/Thomas-A-Reinert" target="_blank">@Thomas-A-Reinert</a></li>
+      <li>Completed german translation, fixed typos etc. - Thx <a href="https://github.com/Thomas-A-Reinert" target="_blank">@Thomas-A-Reinert</a></li>
+      <li>Fixing typos in FR translation - Thx <a href="https://github.com/MarieComet" target="_blank">@MarieComet</a></li>
+      <li>Adding hebrew language file - Thx <a href="https://github.com/asaf147369" target="_blank">@asaf147369</a></li>
+      <li>Adding gulp-autoprefixer - Thx <a href="https://github.com/axlright" target="_blank">@axlright</a></li>
+      <li>Updating WooCommerce compatibility</li>
+      <li>Adding turkish translation - thx <a href="https://github.com/mavisland" target="_blank">@mavisland</a></li>
+      <li>Adding gulpconfig - Thx <a href="https://github.com/lilolbear" target="_blank">@lilolbear</a></li>
+      <li>Enable woocommerce product gallery slider by default. - Thx <a href="https://github.com/typeplus" target="_blank">@typeplus</a></li>
+    </ul>
+  </li>
+  <li><strong>Release 0.8.0 January 22th 2018</strong>
+    <ul>
+      <li>Update to Bootstrap 4 (no more Beta…)</li>
+    </ul>
+  </li>
+  <li><strong>Release 0.7.0 December 29th 2017</strong>
+    <ul>
+      <li>Update to Bootstrap 4 Beta 3</li>
+      <li>Create rigth-sidebar-check.php - Thx <a href="https://github.com/Vishal-Deshpande" target="_blank">@Vishal-Deshpande</a></li>
+      <li>Fixing container type customizer setting - Thx <a href="https://github.com/0dp" target="_blank">@0dp</a></li>
+      <li>Fixing comments.php - Thx <a href="https://github.com/Vishal-Deshpande" target="_blank">@Vishal-Deshpande</a></li>
+    </ul>
+  </li>
+  <li><strong>Release 0.6.12 December 14th 2017</strong>
+    <ul>
+      <li>Hotfix release</li>
+    </ul>
+  </li>
+  <li>**Release 0.6.11 December 11th  **
+    <ul>
+      <li>Fixing WooCommerce functions</li>
+      <li>Fixing sanitizing, escaping and prefix´s issues</li>
+      <li>Fixing customizer settings</li>
+      <li>Removing duplicate code</li>
+      <li>Resort theme-settings.php</li>
+      <li>Cleaning functions.php</li>
+      <li>Changing licensing infos</li>
+    </ul>
+  </li>
+  <li><strong>Release 0.6.10 December 4th 2017</strong>
+    <ul>
+      <li>Hotfix release</li>
+    </ul>
+  </li>
+  <li><strong>Release 0.6.9 November 28th 2017</strong>
+    <ul>
+      <li>Basic guideline adjustments</li>
+      <li>Update prefixes</li>
+      <li>Remove automatically db updates by theme</li>
+      <li>Rename and streamline functions</li>
+      <li>Changing WooCommerce text domain to “understrap”</li>
+      <li>Disable theme-settings.php call</li>
+      <li>Remove jQuery 3.2.1 slim and switch back to WP core jQuery version</li>
+      <li>Update Bootstrap 4 Beta 2 to commit which fixes jQuery conflict</li>
+    </ul>
+  </li>
+  <li><strong>Release 0.6.8 November 27th 2017</strong>
+    <ul>
+      <li>Theme check updates</li>
+      <li>Bugfix release</li>
+    </ul>
+  </li>
+  <li><strong>Release 0.6.7 November 24th 2017</strong>
+    <ul>
+      <li>Workaround for jQuery inconsistency problem between Bootstrap Beta 2 and WordPress in noConflict mode</li>
+      <li>Adding jQuery slim 3.2.1</li>
+      <li>Update page.php - thx <a href="https://github.com/Vishal-Deshpande" target="_blank">@Vishal-Deshpande</a></li>
+      <li>Fixing colormap problem with beta 2</li>
+      <li>Making navwalker function pluggable  - Thx <a href="https://github.com/bruceconlon" target="_blank">@bruceconlon</a></li>
+      <li>Adding WordPress title attribute - Thx <a href="https://github.com/JDVirtual" target="_blank">@JDVirtual</a> and <a href="https://github.com/Thomas-A-Reinert" target="_blank">@Thomas-A-Reinert</a></li>
+      <li>Fixing comments in _theme_variable.scss - thx <a href="https://github.com/ianwyllie" target="_blank">@ianwyllie</a></li>
+      <li>Adding spaces the separate “posted on” and “edited” timestamps  - Thx <a href="https://github.com/bruceconlon" target="_blank">@bruceconlon</a></li>
+    </ul>
+  </li>
+  <li><strong>Release 0.6.6 October 23h 2017</strong>
+    <ul>
+      <li>Update to Bootstrap 4 Beta 2</li>
+      <li>Moving hamburger icon to the right by default</li>
+      <li>Fixing issue #392</li>
+      <li>Gramma and typo fixes</li>
+      <li>Making inc/security.php hookable</li>
+      <li>Variable product ajax_add_to_cart fix</li>
+      <li>Update Woocommerce 3.2.1 compatibility</li>
+    </ul>
+  </li>
+  <li><strong>Release 0.6.5 August 17h 2017</strong>
+    <ul>
+      <li>Hot fix release</li>
+    </ul>
+  </li>
+  <li><strong>Release 0.6.4.1 August 17h 2017</strong>
+    <ul>
+      <li>Hot fix release - Rebuild new Bootstrap 4 Beta navbar markup into UnderStrap</li>
+    </ul>
+  </li>
+  <li><strong>Release 0.6.3 August 14h 2017</strong>
+    <ul>
+      <li>Update to Bootstrap 4 Beta</li>
+      <li>Fixing wrong escaping - Thx <a href="https://github.com/ramiy" target="_blank">@ramiy</a></li>
+      <li>Adding composer.json - Thx <a href="https://github.com/selfagency" target="_blank">@selfagency</a></li>
+      <li>WooCommerce 3.1 compatibility update - Thx <a href="https://github.com/typeplus" target="_blank">@typeplus</a></li>
+      <li>WooCommerce Bootstrap buttons - Thx <a href="https://github.com/yeszao" target="_blank">@yeszao</a></li>
+      <li>theme-settings.php update - Thx <a href="https://github.com/oralunal" target="_blank">@oralunal</a></li>
+      <li>Update responisve meta tags for Bootstrap 4 - Thx <a href="https://github.com/chuckreynolds" target="_blank">@chuckreynolds</a></li>
+    </ul>
+  </li>
+  <li><strong>Release 0.6.2 June 7h 2017</strong>
+    <ul>
+      <li>Hot fix release</li>
+    </ul>
+  </li>
+  <li><strong>Release 0.6.1 May 18th 2017</strong>
+    <ul>
+      <li>Replacing some older BS3 markup - Thx <a href="https://github.com/typeplus" target="_blank">@typeplus</a> and Kostas Vrouvas</li>
+      <li>Add basic error handling for <code class="highlighter-rouge">gulp-plumber</code> - thx <a href="https://github.com/L422Y" target="_blank">@L422Y</a></li>
+      <li>Correcting woo commerce customer login markup</li>
+      <li>Replacing cssnano with minify-css</li>
+      <li>Fix deprecated product accessor for WooCommerce 3.0 - Thx <a href="https://github.com/willgorham" target="_blank">@willgorham</a></li>
+      <li>Declare woocommerce support - Thx <a href="https://github.com/typeplus" target="_blank">@typeplus</a></li>
+      <li>Adding norwegian translation files - Thx <a href="https://github.com/joakimhellum" target="_blank">@joakimhellum</a></li>
+      <li>Adding info for GitHub updater plugin</li>
+      <li>Fixing imagemin task</li>
+      <li>Specify correct post templates for jetpack infinite scroll - Thx <a href="https://github.com/typeplus" target="_blank">@typeplus</a></li>
+      <li>Streamline 404.php and aligning with other page templates</li>
+      <li>Adding gulp-sequence</li>
+    </ul>
+  </li>
+  <li><strong>Release 0.6.0 (skipping 0.5.8 and 0.5.9 ) Apr. 21th 2017</strong>
+    <ul>
+      <li>Adding WooCommerce 3.0.0 support - Big thx <a href="https://github.com/typeplus" target="_blank">@typeplus</a></li>
+      <li>Add npm-debug.log to .gitignore file - thx <a href="https://github.com/OussamaElgoumri" target="_blank">@OussamaElgoumri</a></li>
+      <li>Adding swedish translation files</li>
+      <li>Fixing problems if both forms (login and register) are present</li>
+      <li>Adding image optimization task to gulpfile - thx <a href="https://github.com/VesterDe" target="_blank">@VesterDe</a></li>
+      <li>Removing old and unused BS4 Alpha 5 variables</li>
+      <li>Include call to jQuery into if block - hx <a href="https://github.com/wingertjp" target="_blank">@wingertjp</a></li>
+      <li>phpcs fixes - thx <a href="https://github.com/typeplus" target="_blank">@typeplus</a></li>
+      <li>Fixing col-1 problem on my account WooCommerce page</li>
+      <li>Updating Font Awesome imports</li>
+    </ul>
+  </li>
+  <li><strong>Release 0.5.7  Feb. 13th 2017</strong>
+    <ul>
+      <li>Fixing WooCommerce base layout by reverting custom woocommerce integration and switch back to default integration</li>
+      <li>Adding /js/ folder to watcher task excluding theme.js and theme.min.js</li>
+      <li>Removing duplicate DIV from “both-sidebars” page template - Thx <a href="https://github.com/evandiamond" target="_blank">@evandiamond</a></li>
+      <li>Fixing sidebar check</li>
+      <li>Remove customizer from theme.min.js</li>
+    </ul>
+  </li>
+  <li><strong>Release 0.5.6 (skipping 0.5.5) Feb. 9th 2017</strong>
+    <ul>
+      <li>Adding automated tests - thx <a href="https://github.com/carl-alberto" target="_blank">[@carl-alberto](https://github.com/carl-alberto){:target=”_blank”}</a></li>
+      <li>Remove custom Bootstrap gellery completely</li>
+      <li>Fixing typos - thx to <a href="https://github.com/catgofire" target="_blank">@catgofire</a></li>
+      <li>Checking for WP coding standards</li>
+      <li>Adding a “dist-product” gulp task</li>
+      <li>Adding  WooCommerce form-checkout.php - thx <a href="https://github.com/stef-k" target="_blank">@stef-k</a></li>
+      <li>Fixing bug #240 - thx <a href="https://github.com/arpage" target="_blank">@arpage</a></li>
+      <li>Adding AJAX classes to add-to-cart buttons - thx <a href="https://github.com/typeplus" target="_blank">@typeplus</a></li>
+      <li>Updating Jetpack integration</li>
+      <li>Fixing “missing” h1 on frontpage problem</li>
+      <li>Updating inc/template-tags.php from _s</li>
+      <li>Fixing W3C validator issues</li>
+      <li>Removing cleancss gulp task from cssnano task sequence due to performance issues</li>
+    </ul>
+  </li>
+  <li><strong>Release 0.5.4 Jan. 25th 2017</strong>
+    <ul>
+      <li>Fixing problems with dynamic sidebars (footerfull and statichero) - Thx <a href="https://github.com/NayeemNipun" target="_blank">@NayeemNipun</a></li>
+      <li>Removes Owl Carousel slider and replace it with the BS4 carousel</li>
+      <li>Fixing “both sidebars” problem - Thx <a href="https://github.com/ZXCVLuke" target="_blank">@ZXCVLuke</a></li>
+      <li>SEO improvements - Thx <a href="https://github.com/raisonon" target="_blank">@raisonon</a></li>
+      <li>CSS cleanup</li>
+      <li>Updating dependencies</li>
+    </ul>
+  </li>
+  <li><strong>Release 0.5.3 Jan. 12th 2017</strong>
+    <ul>
+      <li>Updating dependencies</li>
+      <li>Adding BS4 styles to editor style formats - Thx <a href="https://github.com/ZXCVLuke" target="_blank">@ZXCVLuke</a></li>
+      <li>Adding theme css to editor</li>
+      <li>Dynamize the full footer and static hero widget area.</li>
+      <li>Custom header preparations</li>
+      <li>adding customizer edit icon support</li>
+      <li>Fixing “no sidebar” problem</li>
+      <li>Update Custom Logo Tags - Thx <a href="https://github.com/jessijean" target="_blank">@jessijean</a></li>
+    </ul>
+  </li>
+  <li><strong>Release 0.5.2 Jan. 7th 2017</strong>
+    <ul>
+      <li>Updating to Bootstrap 4 Alpha 6</li>
+      <li>Fixing german translation issues</li>
+      <li>Cleanup navbar code</li>
+      <li>Cleanup underStrap Sass file</li>
+      <li>Fixing browsersync issues</li>
+      <li>Removing one page vertical template</li>
+      <li>Update dependencies</li>
+    </ul>
+  </li>
+  <li><strong>Release 0.5.1 Dec. 29th 2016</strong>
+    <ul>
+      <li>Adding spanish translation</li>
+      <li>Translation updates for: Greek, German, French</li>
+      <li>Updating language bas file</li>
+      <li>Streamlining Gulp tasks</li>
+      <li>Adding WooCommerce templates</li>
+      <li>Adding Contact Form 7 support</li>
+      <li>Fixing W3C validator issues</li>
+      <li>Adding BS4 pagination</li>
+      <li>Adding BS4 article nav</li>
+      <li>Include /JS folder to watcher task</li>
+      <li>Some SEO improvements (especially h1 for article titles on single item pages, etc.)</li>
+      <li>Adding italian language</li>
+      <li>General bug fixing</li>
+      <li>Fixing live preview for customizer</li>
+      <li>Font Awesome update</li>
+      <li>Udating all npm dependencies</li>
+      <li>ARIA roles update</li>
+      <li>Updating hamburger icon behavior</li>
+    </ul>
+  </li>
+  <li><strong>Release 0.5.0 Nov. 24th 2016</strong>
+    <ul>
+      <li>Update Owl Carousel to 2.2.0</li>
+      <li>Update Font Awesome to 4.7.0</li>
+      <li>Greek language file added - Thx <a href="https://github.com/stef-k" target="_blank">@stef-k</a></li>
+      <li>Portugese language file added - Thx <a href="https://github.com/jfig" target="_blank">@jfig</a></li>
+      <li>Adding vertical-one-page template for landingpages - Thx <a href="https://github.com/stef-k" target="_blank">@stef-k</a></li>
+      <li>Making all theme functions pluggable to allow child themes to overwrite ´em</li>
+      <li>French language file added - Thx @tchama</li>
+      <li>Adding article pagination and page nav BS4 markup  - Thx <a href="https://github.com/stef-k" target="_blank">@stef-k</a> &amp; <a href="https://github.com/Thomas-A-Reinert" target="_blank">@Thomas-A-Reinert</a></li>
+      <li>Adding dynamic sidebar function - Thx <a href="https://github.com/stef-k" target="_blank">@stef-k</a></li>
+      <li>Korean language file added</li>
+      <li>Basic WooCommerce templates added</li>
+      <li>Fixing “Gulp dist” Task</li>
+      <li>Adding masonry layout option to optimizer - Thx <a href="https://github.com/stef-k" target="_blank">@stef-k</a></li>
+      <li>Adding fluid/fixed conatiner option to optimizer</li>
+    </ul>
+  </li>
+  <li><strong>0.4.9 Oct. 25th 2016</strong>
+    <ul>
+      <li>Updating to Bootstrap 4 Alpha 5</li>
+      <li>Using the correct BS4 markup for navbar - Thx <a href="https://github.com/tedgeving" target="_blank">@tedgeving</a></li>
+      <li>Inject theme name and version into the footer dynamically - Thx <a href="https://github.com/maxdmyers" target="_blank">@maxdmyers</a></li>
+      <li>Adding a blank template for building up a landingpage via WP editor or as blank canvas for Visual Composer etc. - Thx <a href="https://github.com/omarusman" target="_blank">@omarusman</a></li>
+      <li>Fixing problem with empty folders after “gulp dist” - Thx <a href="https://github.com/alwizo" target="_blank">@alwizo</a></li>
+      <li>Fixed custom logo function typo - Thx <a href="https://github.com/willgorham" target="_blank">@willgorham</a></li>
+    </ul>
+  </li>
+  <li><strong>0.4.8 Oct. 10th 2016</strong>
+    <ul>
+      <li>Removing Bower and replace the dependency managment with npm</li>
+      <li>Update to Bootstrap 4 Alpha 4</li>
+      <li>Optimizing WooCommerce loop -  Thx <a href="https://github.com/typeplus" target="_blank">@typeplus</a></li>
+      <li>Updating all dependencies</li>
+      <li>Add WP Theme logo feature - Thx <a href="https://github.com/jessijean" target="_blank">@jessijean</a></li>
+    </ul>
+  </li>
+  <li><strong>0.4.7 Aug. 15th 2016</strong>
+    <ul>
+      <li>Fixing problem with tag page</li>
+      <li>Fixing Navbar “hopping”</li>
+      <li>Global bugfixing and streamlining performance issues</li>
+    </ul>
+  </li>
+  <li><strong>0.4.6 Aug. 1st 2016</strong>
+    <ul>
+      <li>Update to Bootstrap 4 Alpha 3</li>
+      <li>Adding basic padding to aligned content images</li>
+      <li>Adding author.php template with author infos</li>
+      <li>Correct language file + german translation</li>
+    </ul>
+  </li>
+  <li><strong>0.4.5 Jun. 20th 2016</strong>
+    <ul>
+      <li>Adding right sanitizing function for customizer</li>
+      <li>Fixing some escaping problems</li>
+      <li>Removing “add script” customizer function</li>
+      <li>Calling all sidebars with “get_sidebar”</li>
+      <li>Load hero area on index.php conditionally</li>
+      <li>Remove unused code, files and dependencies</li>
+      <li>Adding credits for WP Bootstrap Navwalker by Edward McIntyre</li>
+    </ul>
+  </li>
+  <li><strong>0.4.4 Jun. 18th 2016</strong>
+    <ul>
+      <li>Adding the new empty.php page template. Comes just with header, footer and a content area without markup. Good for build up landingpages. An empty canvas for your Bootstrap markup.</li>
+      <li>Update bower.json dependencies to latest versions</li>
+      <li>Update package.json dependencies to latest versions</li>
+      <li>Adding Theter script as dependency for BS4 tooltip component</li>
+      <li>Resorting gulpfile.js</li>
+      <li>Removing BS3 completely as dependency</li>
+      <li>Smaller bugfixes and code improvements</li>
+    </ul>
+  </li>
+  <li><strong>0.4.0 Apr. 29th 2016</strong>
+    <ul>
+      <li>Switching from Bootstrap 3 to Bootstrap 4</li>
+      <li>Adding BrowserSync to gulpfile (again thx to <a href="https://github.com/dvlopes" target="_blank">@dvlopes</a>)</li>
+      <li>Preparing the navbar markup so that the current version will work with Bootstrap 3 AND 4</li>
+      <li>Adding “gulp scripts” command - This uglifies and minifies all JS files (except jQuery…) into one single JS file called theme.min.js</li>
+      <li>Updating Gulpfile - now “gulp copy-assets” command copies all files from dependency folders into mid-layer folder called “/src”</li>
+      <li>Load jQuery again as extra script instead of concat it into on single file. After some problems with WooCommerce and other plugins</li>
+      <li>Checking WordPress 4.5 compatibility</li>
+      <li>Updating language template</li>
+      <li>Adding Brazilian Portuguese (pt-BR) translation (thx to <a href="https://github.com/dvlopes" target="_blank">@dvlopes</a>).</li>
+    </ul>
+  </li>
+  <li><strong>0.3.8 Mar. 9th 2016</strong>
+    <ul>
+      <li>Adding footer widget area</li>
+      <li>Adjust Bootstrap markup for searchform and search widget</li>
+    </ul>
+  </li>
+  <li><strong>0.3.7 Jan. 8th 2016</strong>
+    <ul>
+      <li>Cleanup for submitting to WordPress.org theme repository:
+        <ul>
+          <li>Fixing sticky post problem</li>
+          <li>Fixing skip-to-content link</li>
+          <li>re-activating the admin bar</li>
+          <li>adding readme.txt</li>
+          <li>Fixing missing translation strings in comments template</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>0.3.6 Jan. 4th 2016</strong>
+    <ul>
+      <li>Cleanup</li>
+      <li>Updating dependencies</li>
+      <li>Upgrade to Bootstrap 3.3.6 and Font Awesome 4.5.0</li>
+    </ul>
+  </li>
+  <li><strong>0.3.4 SEP. 9th 2015</strong>
+    <ul>
+      <li>Adding basic WooCommerce support</li>
+      <li>Cleanup for submitting to wordpress.org</li>
+      <li>Removing _s SASS … no need for basic styling. Thats Bootstrap´s job.</li>
+    </ul>
+  </li>
+  <li><strong>0.3.1 AUG. 12th 2015</strong>
+    <ul>
+      <li>Adding bower dependency manager and replacing GRUNT taskrunner with GULP</li>
+    </ul>
+  </li>
+  <li><strong>0.3.0 Mar. 23th 2015</strong>
+    <ul>
+      <li>Streamlining some code, adding extra “sticky” area (sticky posts above the main content area inside an extra loop). Fixing some child theme issues (now its really child theme ready…really…trust me…)</li>
+    </ul>
+  </li>
+  <li><strong>0.2.9 Mar. 10th 2015</strong>
+    <ul>
+      <li>Adding a new theme customizer option. It lets you add a code snippet right before the closing &lt;/body&gt; tag.
+  For example for Google Analytics, Google Tag Mananger, Pingdom etc. Just copy and past your code to the input field and save the setting.
+  So you don´t have to edit the theme source file´s directly and your theme stay´s updateable</li>
+    </ul>
+  </li>
+  <li><strong>0.2.8 Feb. 6th 2015</strong>
+    <ul>
+      <li>Adding Grunt and Grunt SASS task</li>
+    </ul>
+  </li>
+  <li><strong>0.2.7 Jan. 26th 2015</strong>
+    <ul>
+      <li>Adding some basic theme option for the build-in slider script</li>
+    </ul>
+  </li>
+  <li><strong>0.2.6 Dec. 28th 2014</strong>
+    <ul>
+      <li>CLean up</li>
+    </ul>
+  </li>
+  <li><strong>0.2 Dec. 22th 2014</strong>
+    <ul>
+      <li>Adding Jasny Off-Canvas nav and Owl.Carousel Slider script</li>
+      <li>Enqueue scipts and styled dynamically</li>
+    </ul>
+  </li>
+  <li><strong>0.1 Dec. 10th 2014 - First commit</strong></li>
+</ul>
+
+        </main>
+      </div>
+    </div>
+    <footer class="bd-footer text-muted">
+  <div class="container-fluid p-3 p-md-5">
+    <ul class="bd-footer-links">
+      <li><a href="https://github.com/understrap/understrap" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://twitter.com/@_understrap" target="_blank" rel="noopener">Twitter</a></li>
+      <li><a href="/Understrap-Documentation/docs/0.8.2/about/about-understrap/">About</a></li>
+    </ul>
+    <p>Founded by Holger Koenemann. Maintained by the <a href="https://github.com/orgs/understrap/people" target="_blank" rel="noopener">core team</a> with the help of <a href="https://github.com/understrap/understrap/graphs/contributors" target="_blank" rel="noopener">our contributors</a>.</p>
+    <p>Latest Version v0.8.2. Code licensed under <a href="https://github.com/understrap/understrap/blob/master/LICENSE.md" target="_blank" rel="noopener">GNU General Public License v2.0</a>, Docs <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener">CC BY 3.0</a>.</p>
+  </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="/Understrap-Documentation/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+
+<script src="/Understrap-Documentation/assets/js/vendor/popper.min.js"></script><script src="/Understrap-Documentation/dist/js/bootstrap.js"></script><script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script><script src="/Understrap-Documentation/assets/js/vendor/anchor.min.js"></script>
+  <script src="/Understrap-Documentation/assets/js/vendor/clipboard.min.js"></script>
+  <script src="/Understrap-Documentation/assets/js/vendor/holder.min.js"></script>
+  <script src="/Understrap-Documentation/assets/js/src/application.js"></script>
+  <script src="/Understrap-Documentation/assets/js/src/ie-emulation-modes-warning.js"></script>
+  <script src="/Understrap-Documentation/assets/js/src/pwa.js"></script>
+  </body>
+</html>
