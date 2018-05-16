@@ -4,24 +4,24 @@ self.importScripts('/assets/js/vendor/workbox-sw.js')
 
 workbox.precaching.precacheAndRoute([
   {
-    "url": "assets/brand/bootstrap-outline.svg",
-    "revision": "9537646a9202cb5dca44e9034c1b414b"
+    "url": "assets/brand/understrap-outline.svg",
+    "revision": "c062fa368ead3628f09700cdb9ea1c92"
   },
   {
-    "url": "assets/brand/bootstrap-punchout.svg",
-    "revision": "372e344ac243c4fa7c6c8b8a2af0e5ff"
+    "url": "assets/brand/understrap-punchout.svg",
+    "revision": "c062fa368ead3628f09700cdb9ea1c92"
   },
   {
-    "url": "assets/brand/bootstrap-social-logo.png",
-    "revision": "1e9e93d863b7811934889f9aac89c7de"
+    "url": "assets/brand/understrap-social-logo.png",
+    "revision": "981a0856a91d54f1234e7d3c76e484b8"
   },
   {
-    "url": "assets/brand/bootstrap-social.png",
-    "revision": "56be615bbca4502de5d55d721dae917f"
+    "url": "assets/brand/understrap-social.png",
+    "revision": "72100a277e1211f05e418ff2309f157d"
   },
   {
-    "url": "assets/brand/bootstrap-solid.svg",
-    "revision": "ea931a5b98a97e8b8658d9f6d537329e"
+    "url": "assets/brand/understrap-solid.svg",
+    "revision": "c062fa368ead3628f09700cdb9ea1c92"
   },
   {
     "url": "assets/css/docs.min.css",
@@ -37,23 +37,23 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/img/favicons/android-chrome-192x192.png",
-    "revision": "643718426d0a7d60036217ba988155be"
+    "revision": "c2dbb277806a397216b0950051a67cb3"
   },
   {
     "url": "assets/img/favicons/android-chrome-512x512.png",
-    "revision": "eb512e79165f504fd4da4d2758d5584b"
+    "revision": "0d7a8ce59e1cef5be56622d8e738b116"
   },
   {
     "url": "assets/img/favicons/apple-touch-icon.png",
-    "revision": "042a7e9fdd293212aca19150aef71b0d"
+    "revision": "fec633cf9b3afacbe0767bc0e70c3101"
   },
   {
     "url": "assets/img/favicons/favicon-16x16.png",
-    "revision": "50c62448d4014e5fb411887c05c2935b"
+    "revision": "6b8d22ecb10f8a4d817ed53e274177d7"
   },
   {
     "url": "assets/img/favicons/favicon-32x32.png",
-    "revision": "fed84e16b6ccfe88ee7ffaae5dfefd34"
+    "revision": "ed56e5bee5a9090501ed0fef75ba1dfe"
   },
   {
     "url": "assets/img/favicons/manifest.json",
@@ -61,23 +61,23 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/img/favicons/mstile-144x144.png",
-    "revision": "84892991321e7998ca4c80ae21175f78"
+    "revision": "907a737ad2fa68a82a2a2b3a5a95a5fe"
   },
   {
     "url": "assets/img/favicons/mstile-150x150.png",
-    "revision": "61821c45a353e259bb83f9b0d338f5e8"
+    "revision": "6ce43ca0daea6fbca1f2325595c6a6f5"
   },
   {
     "url": "assets/img/favicons/mstile-310x150.png",
-    "revision": "913e1b81006831c72a7bca38e4125edb"
+    "revision": "c1e2df716d6ea43bab620d2899d7f3a0"
   },
   {
     "url": "assets/img/favicons/mstile-310x310.png",
-    "revision": "29d79a7e648876504496211f003c4076"
+    "revision": "895d067819ab8fa71c34c2e512064d61"
   },
   {
     "url": "assets/img/favicons/mstile-70x70.png",
-    "revision": "386d71707992eb91fc53df303e99c2e7"
+    "revision": "66869e361217ccfe6c0d2a779543767c"
   },
   {
     "url": "assets/img/favicons/safari-pinned-tab.svg",
