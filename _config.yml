@@ -14,7 +14,7 @@ destination:    ./_gh_pages
 host:           localhost
 port:           4711
 baseurl:        ""
-url:            "https://usdocu.tarthemes.com"
+url:            "https://thomas-a-reinert.github.io/Understrap-Documentation"
 encoding:       UTF-8
 exclude:
   - .git/

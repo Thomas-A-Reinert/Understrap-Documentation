@@ -92,7 +92,7 @@ understrap-child/
 
 If you want to build your own Child Theme, you may want to edit `./style.css`.
 
-```php
+```css
 /*
   Theme Name:   UnderStrap Child
   Theme URI:    https://www.understrap.com

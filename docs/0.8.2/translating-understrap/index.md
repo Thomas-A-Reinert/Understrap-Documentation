@@ -35,6 +35,15 @@ We recommend:
 - A standalone programm like [Poedit](https://poedit.net/){:target="_blank"}  for Windows
 - Any other *Gettext Translations Editor*
 
-When done save and generate a .mo file containing your language string, e.g. `de-DE.mo` .
+When done save and generate a .mo file containing your language string, e.g. `de_DE.mo` .
+
+{% capture callout %}
+German and Swiss Languages for example use two versions of the language files.
+
+- The friendly "*Du*" form which is the default `de_DE.mo`.
+- And a formal "*Sie*" form which needs to be saved in `de_DE_formal.mo`.
+
+{% endcapture %}
+{% include callout.html content=callout type="info" %}
 
 From then on UnderStrap will automatically use the translation strings you provided for that language.

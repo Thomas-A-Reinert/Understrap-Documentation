@@ -14,8 +14,6 @@ UnderStrap is maintained by a [small team of developers](https://github.com/orgs
 
 Originally founded by created by Holger Koenemann [@holger1411](https://github.com/holger1411) a Frontend Dev & UX Designer in 2014 to merge the _s Starter Theme from Automattic with Boostrap v3.
 
-Since then it has become one of the most advanced WordPress starter themes.
-
 On April 2016 the development switched from integrating Bootstrap 3 to using the Bootstrap 4 Alpha.
 
 About 30 releases later, Bootstrap 4.1 is used, also supporting CSS and settings for WooCommerce and Contact Form 7 while trying to stay as barebone as possible.
