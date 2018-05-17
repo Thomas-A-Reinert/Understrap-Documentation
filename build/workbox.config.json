@@ -1,5 +1,5 @@
 {
-  "globDirectory": "./",
+  "globDirectory": "./Understrap-Documentation/",
   "globPatterns": [
     "_gh_pages/**/*.{html,css,js,json,png,svg}"
   ],
