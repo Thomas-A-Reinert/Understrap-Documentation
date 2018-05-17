@@ -1,8 +1,8 @@
 {
-  "globDirectory": "./",
+  "globDirectory": "./Understrap-Documentation/",
   "globPatterns": [
     "_gh_pages/**/*.{html,css,js,json,png,svg}"
   ],
-  "swSrc": "./Understrap-Documentation/sw.js",
+  "swSrc": "./sw.js",
   "swDest": "./_gh_pages/sw.js"
 }
