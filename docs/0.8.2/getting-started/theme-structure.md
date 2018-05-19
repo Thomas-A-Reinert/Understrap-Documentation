@@ -6,10 +6,13 @@ group: getting-started
 toc: true
 ---
 
-### File structure
+## File structure
 
+{% capture callout %}
 Whenever possible, avoid modifying UnderStrap's core files.
 It is highly recommended to use a [Child theme]({{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/child-theme/) if you want to modify the layout or functions.
+{% endcapture %}
+{% include callout.html content=callout type="warning" %}
 
 After basic installation, you'll have a file structure that looks like this:
 
@@ -103,11 +106,11 @@ understrap/
 │   │   └── skip-link-focus-fix.js
 │   │
 │   ├── sass/
-│   │   ├── bootstrap4/
-│   │   ├── fontawesome/
-│   │   └── underscores/
+│       ├── bootstrap4/
+│       ├── fontawesome/
+│       └── underscores/
 │
-└── woocommerce/
+├── woocommerce/
 │   ├── cart/
 │   │   ├── cart.php
 │   │   ├── cart-empty.php

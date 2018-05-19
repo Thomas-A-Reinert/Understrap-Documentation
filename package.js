@@ -1,12 +1,12 @@
 // package metadata file for Meteor.js
 
-/* global Package:true */
+/* eslint-env meteor */
 
 Package.describe({
-  name: 'UnderStrap',  // https://atmospherejs.com/twbs/bootstrap
-  summary: 'A WordPress theme framework based on Bootstrap4 and _s',
-  version: '0.8.2',
-  git: 'https://github.com/understrap/understrap.git'
+  name: 'twbs:bootstrap',  // https://atmospherejs.com/twbs/bootstrap
+  summary: 'The most popular front-end framework for developing responsive, mobile first projects on the web.',
+  version: '4.1.1',
+  git: 'https://github.com/twbs/bootstrap.git'
 });
 
 Package.onUse(function (api) {

@@ -8,18 +8,16 @@ group: about
 
 ## Team
 
-Bootstrap is maintained by a [small team of developers](https://github.com/orgs/twbs/people) on GitHub. We're actively looking to grow this team and would love to hear from you if you're excited about CSS at scale, writing and maintaining vanilla JavaScript plugins, and improving build tooling processes for frontend code.
+UnderStrap is maintained by a [small team of developers](https://github.com/orgs/understrap/people) on GitHub. We're actively looking to grow this team and would love to hear from you if you're excited about WordPress themes and integrating Bootstrap into WordPress themes at scale, writing Templates and additional Plugins for UnderStrap, and improving build tooling processes for our code.
 
 ## History
 
-Originally created by a designer and a developer at Twitter, Bootstrap has become one of the most popular front-end frameworks and open source projects in the world.
+Originally founded by created by Holger Koenemann [@holger1411](https://github.com/holger1411) a Frontend Dev & UX Designer in 2014 to merge the _s Starter Theme from Automattic with Boostrap v3.
 
-Bootstrap was created at Twitter in mid-2010 by [@mdo](https://twitter.com/mdo) and [@fat](https://twitter.com/fat). Prior to being an open-sourced framework, Bootstrap was known as _Twitter Blueprint_. A few months into development, Twitter held its [first Hack Week](https://blog.twitter.com/2010/hack-week) and the project exploded as developers of all skill levels jumped in without any external guidance. It served as the style guide for internal tools development at the company for over a year before its public release, and continues to do so today.
+On April 2016 the development switched from integrating Bootstrap 3 to using the Bootstrap 4 Alpha.
 
-Originally [released](https://blog.twitter.com/2011/bootstrap-from-twitter) on [<time datetime="2011-08-19 11:25">Friday, August 19, 2011</time>](https://twitter.com/mdo/statuses/104620039650557952), we've since had over [twenty releases]({{ site.repo }}/releases), including two major rewrites with v2 and v3. With Bootstrap 2, we added responsive functionality to the entire framework as an optional stylesheet. Building on that with Bootstrap 3, we rewrote the library once more to make it responsive by default with a mobile first approach.
-
-With Bootstrap 4, we once again rewrote the project to account for two key architectural changes: a migration to Sass and the move to CSS's flexbox. Our intention is to help in a small way to move the web development community forward by pushing for newer CSS properties, fewer dependencies, and new technologies across more modern browsers.
+About 30 releases later, Bootstrap 4.1 is used, also supporting CSS and settings for WooCommerce and Contact Form 7 while trying to stay as barebone as possible.
 
 ## Get involved
 
-Get involved with Bootstrap development by [opening an issue]({{ site.repo }}/issues/new) or submitting a pull request. Read our [contributing guidelines]({{ site.repo }}/blob/v{{ site.current_version }}/.github/CONTRIBUTING.md) for information on how we develop.
+Get involved with UnderStrap development by [opening an issue]({{ site.repo }}/issues/new) or submitting a pull request. Read our [contributing guidelines]({{ site.repo }}/blob/master/CONTRIBUTING.md) for information on how we develop.
