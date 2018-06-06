@@ -3,7 +3,7 @@ layout: docs
 title: Gutenberg
 description: 
 group: gutenberg
-toc: true
+toc: false
 ---
 
 ## To be done

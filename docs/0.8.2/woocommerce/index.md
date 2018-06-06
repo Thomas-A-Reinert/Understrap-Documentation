@@ -3,7 +3,7 @@ layout: docs
 title: WooCommerce
 description: 
 group: woocommerce
-toc: true
+toc: false
 ---
 
 ## To be done

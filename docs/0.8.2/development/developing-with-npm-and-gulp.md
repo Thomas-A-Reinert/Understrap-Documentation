@@ -3,7 +3,7 @@ layout: docs
 title: Developing with npm & Gulp
 description: UnderStrap uses npm as a dependency manager for packages like Bootstrap and Underscores. It also uses Gulp as a taskrunner to compile SASS code into .css, minify Javascript code etc.
 group: development
-toc: true
+toc: false
 ---
 
 ## Preparations: Install node.js and Gulp

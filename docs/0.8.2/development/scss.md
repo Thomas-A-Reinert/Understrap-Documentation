@@ -3,7 +3,7 @@ layout: docs
 title: SCSS
 description: UnderStrap builds its CSS using SCSS files as Source-files. You can use any SCSS Processor to generate the CSS.
 group: development
-toc: true
+toc: false
 ---
 
 ## Using SCSS with Gulp

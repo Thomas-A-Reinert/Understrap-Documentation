@@ -3,7 +3,7 @@ layout: docs
 title: Introduction
 description: Starter Theme + UI Framework == WordPress Theme Framework
 group: introduction
-toc: true
+toc: false
 ---
 
 The [_s theme](https://underscores.me/){:target="_blank"} is a good starting point to develop a WordPress theme. But it is “just” a raw starter theme. That means it outputs all the WordPress stuff correctly but without any layout or design. Why not add a well known and supported layout framework to have a solid, clean and responsive foundation?

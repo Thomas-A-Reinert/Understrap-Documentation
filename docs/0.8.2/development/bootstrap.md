@@ -3,7 +3,7 @@ layout: docs
 title: Bootstrap
 description: Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites using UnderStrap.
 group: development
-toc: true
+toc: false
 ---
 
 {% capture callout %}

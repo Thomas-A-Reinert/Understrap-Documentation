@@ -3,7 +3,7 @@ layout: docs
 title: WordPress Menus
 description: UnderStrap supports only a primary menu with two levels, means just a single submenu level.
 group: getting-started
-toc: true
+toc: false
 ---
 
 ## Adding Icons to the Menu

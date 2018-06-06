@@ -3,7 +3,7 @@ layout: docs
 title: About UnderStrap
 description: Learn more about the team maintaining UnderStrap, how and why the project started, and how to get involved.
 group: about
-# toc: true
+toc: false
 ---
 
 ## Team
