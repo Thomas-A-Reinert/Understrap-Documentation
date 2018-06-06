@@ -3,7 +3,7 @@ layout: docs
 title: Customizer Options
 description: UnderStrap´s customizer settings are pretty barebone as it´s intended to be performant and a starter theme and not a bloated multi-purpose theme like you find them in several theme-stores.
 group: getting-started
-toc: true
+toc: false
 ---
 
 ## Standard Customizer Settings

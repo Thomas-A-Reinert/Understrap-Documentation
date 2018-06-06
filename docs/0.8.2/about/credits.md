@@ -3,7 +3,7 @@ layout: docs
 title: Credits
 description: UnderStrap wouldn´t be what it is today without these great projects.
 group: about
-# toc: true
+toc: false
 ---
 
 ## Code

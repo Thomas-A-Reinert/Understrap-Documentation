@@ -3,7 +3,7 @@ layout: docs
 title: Changelog
 description: 
 group: changelog
-toc: true
+toc: false
 ---
 
 - **Release 0.8.2 April 11th 2018**

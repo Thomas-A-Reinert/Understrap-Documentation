@@ -3,7 +3,7 @@ layout: docs
 title: Custom Menus and Menu Areas
 description: By default, UnderStrap just supports a single menu - the primary Menu located on top of the page. But yes, you can extend that to your liking!
 group: extend
-toc: true
+toc: false
 ---
 
 ## Adding another Menu Bar to the Parent Theme

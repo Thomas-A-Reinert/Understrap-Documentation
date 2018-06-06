@@ -3,7 +3,7 @@ layout: docs
 title: Page Templates
 description: 
 group: getting-started
-toc: true
+toc: false
 ---
 
 ## Blank Template

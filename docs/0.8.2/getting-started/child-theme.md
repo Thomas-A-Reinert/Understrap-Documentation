@@ -3,7 +3,7 @@ layout: docs
 title: Child Theme
 description: You may opt to build your own theme using UnderStrap as a starter theme or use it as a parent theme - and keep the parent updatable therefore - and make all your changes in a child theme.
 group: getting-started
-toc: true
+toc: false
 ---
 
 {% capture callout %}

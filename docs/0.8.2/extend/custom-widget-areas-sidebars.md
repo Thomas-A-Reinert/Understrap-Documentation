@@ -3,7 +3,7 @@ layout: docs
 title: Custom Widget Areas / Sidebars
 description: UnderStrap already supports six Widget Areas or "Sidebars". In case you need more, please follow the instructions below.
 group: extend
-toc: true
+toc: false
 ---
 
 ## Adding another Widget Area to the Parent Theme

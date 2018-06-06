@@ -3,7 +3,7 @@ layout: docs
 title: Theme Structure
 description: 
 group: getting-started
-toc: true
+toc: false
 ---
 
 ## File structure
