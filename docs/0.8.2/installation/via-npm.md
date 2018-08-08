@@ -1,10 +1,15 @@
 ---
 layout: docs
-title: NPM
-description: UnderStrap can also be easily installed via Node Package Manager (npm)
+title: NPM / Yarn
+description: UnderStrap can also be easily installed via Node Package Manager (npm) or Yarn
 group: installation
 toc: false
 ---
+
+{% capture callout %}
+In most cases `npm` and `yarn` commands are interchangable.
+{% endcapture %}
+{% include callout.html content=callout type="info" %}
 
 Open your terminal and browse to the location where you want to install UnderStrap. In most cases this location will reside in your `./wp-content/themes` directory.
 
@@ -87,7 +92,7 @@ npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
 
 + understrap@0.8.2
 added 1163 packages from 674 contributors in 68.06s
-{% endhighlight %} 
+{% endhighlight %}
 
 And this generates just a `node_modules` folder and a `package-lock.json` file and nothing more. Cannot image that this works as intended.<br>
 **Dev-Environment:** Windows 10, Node v8.9.2, NPM 5.7.1
